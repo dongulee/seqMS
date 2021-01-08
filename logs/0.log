@@ -1,0 +1,1 @@
+,{"architecture": "cnn2", "timestep": 0, "pre_train_size": 60000, "mnist_test": true, "split_ratio": 0.0, "model_arch": "cnn2", "epochs": 14, "loss": 0.04285755958557129, "accuracy": 99.17, "out_model": "cnn2_1_0.pt", "training_time": 537.7680025100708}

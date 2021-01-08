@@ -1,0 +1,6001 @@
+{
+    "exp_id": 38
+}, {
+    "architecture": "cnn2",
+    "timestep": 0,
+    "pre_train_size": 100,
+    "mnist_test": false,
+    "split_ratio": 0.9,
+    "model_arch": "cnn2",
+    "epochs": 3,
+    "train_losses": [
+        [1, 2.3009045124053955],
+        [2, 2.2948946952819824],
+        [3, 2.291522264480591]
+    ],
+    "test_loss/acc": [
+        [3, [2.302171516418457, 10.0]]
+    ],
+    "training_time": 1.6224606037139893,
+    "out_model": "./models/_cnn2_38_0.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:1*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:1*100]",
+    "timestep": 1,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_0.pt",
+    "train_losses": [
+        [1, 2.302834987640381],
+        [2, 2.2982821464538574],
+        [3, 2.294844150543213]
+    ],
+    "test_loss/acc": [
+        [3, [2.3393199920654295, 0.0]]
+    ],
+    "oracle_loss/acc": [
+        [3, [2.3040327392578126, 11.35]]
+    ],
+    "training_time": 0.4828331470489502,
+    "out_model": "./models/_cnn2_38_1.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:2*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:2*100]",
+    "timestep": 2,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_1.pt",
+    "train_losses": [
+        [1, 2.299856662750244],
+        [2, 2.2462074756622314],
+        [3, 2.3010756969451904]
+    ],
+    "test_loss/acc": [
+        [3, [2.312606430053711, 5.0]]
+    ],
+    "oracle_loss/acc": [
+        [3, [2.3039497802734377, 11.35]]
+    ],
+    "training_time": 0.6049458980560303,
+    "out_model": "./models/_cnn2_38_2.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:3*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:3*100]",
+    "timestep": 3,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_2.pt",
+    "train_losses": [
+        [1, 2.2858128547668457],
+        [2, 2.2875542640686035],
+        [3, 2.2986092567443848]
+    ],
+    "test_loss/acc": [
+        [3, [2.259479268391927, 20.0]]
+    ],
+    "oracle_loss/acc": [
+        [3, [2.2701135498046874, 18.96]]
+    ],
+    "training_time": 0.8484795093536377,
+    "out_model": "./models/_cnn2_38_3.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:4*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:4*100]",
+    "timestep": 4,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_3.pt",
+    "train_losses": [
+        [1, 2.278817653656006],
+        [2, 2.2606871128082275],
+        [3, 2.3131020069122314]
+    ],
+    "test_loss/acc": [
+        [3, [2.274454689025879, 15.0]]
+    ],
+    "oracle_loss/acc": [
+        [3, [2.2732300537109373, 18.54]]
+    ],
+    "training_time": 0.9680116176605225,
+    "out_model": "./models/_cnn2_38_4.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:5*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:5*100]",
+    "timestep": 5,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_4.pt",
+    "train_losses": [
+        [1, 2.277463436126709],
+        [2, 2.4916810989379883],
+        [3, 2.455186128616333]
+    ],
+    "test_loss/acc": [
+        [3, [2.3317369079589843, 8.0]]
+    ],
+    "oracle_loss/acc": [
+        [3, [2.3075761474609373, 10.28]]
+    ],
+    "training_time": 1.2120208740234375,
+    "out_model": "./models/_cnn2_38_5.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:6*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:6*100]",
+    "timestep": 6,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_5.pt",
+    "train_losses": [
+        [1, 2.299851417541504],
+        [2, 2.346203565597534],
+        [3, 2.2866454124450684]
+    ],
+    "test_loss/acc": [
+        [3, [2.2836039225260416, 13.333333333333334]]
+    ],
+    "oracle_loss/acc": [
+        [3, [2.2843247802734377, 10.32]]
+    ],
+    "training_time": 1.332751750946045,
+    "out_model": "./models/_cnn2_38_6.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:7*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:7*100]",
+    "timestep": 7,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_6.pt",
+    "train_losses": [
+        [1, 2.299539804458618],
+        [2, 2.277571678161621],
+        [3, 3.681886911392212]
+    ],
+    "test_loss/acc": [
+        [3, [0.9915217808314732, 57.142857142857146]]
+    ],
+    "oracle_loss/acc": [
+        [3, [1.1760529418945314, 57.37]]
+    ],
+    "training_time": 1.4544544219970703,
+    "out_model": "./models/_cnn2_38_7.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:8*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:8*100]",
+    "timestep": 8,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_7.pt",
+    "train_losses": [
+        [1, 1.2786973714828491],
+        [2, 0.7157852053642273],
+        [3, 0.6127738952636719]
+    ],
+    "test_loss/acc": [
+        [3, [0.6538867473602294, 80.0]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7816962158203125, 74.08]]
+    ],
+    "training_time": 1.6966779232025146,
+    "out_model": "./models/_cnn2_38_8.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:9*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:9*100]",
+    "timestep": 9,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_8.pt",
+    "train_losses": [
+        [1, 1.3644589185714722],
+        [2, 0.6941747665405273],
+        [3, 0.3354509472846985]
+    ],
+    "test_loss/acc": [
+        [3, [0.5657594468858507, 84.44444444444444]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.6540324829101563, 78.29]]
+    ],
+    "training_time": 1.8190793991088867,
+    "out_model": "./models/_cnn2_38_9.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:10*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:10*100]",
+    "timestep": 10,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_9.pt",
+    "train_losses": [
+        [1, 0.6773741245269775],
+        [2, 0.31900689005851746],
+        [3, 0.444472074508667]
+    ],
+    "test_loss/acc": [
+        [3, [0.858371353149414, 76.0]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7573882507324219, 77.11]]
+    ],
+    "training_time": 2.062917947769165,
+    "out_model": "./models/_cnn2_38_10.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:11*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:11*100]",
+    "timestep": 11,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_10.pt",
+    "train_losses": [
+        [1, 0.6443559527397156],
+        [2, 0.30017969012260437],
+        [3, 0.17420923709869385]
+    ],
+    "test_loss/acc": [
+        [3, [0.39159303144975144, 92.72727272727273]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.42580731811523437, 86.64]]
+    ],
+    "training_time": 2.185556173324585,
+    "out_model": "./models/_cnn2_38_11.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:12*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:12*100]",
+    "timestep": 12,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_11.pt",
+    "train_losses": [
+        [1, 0.2497803270816803],
+        [2, 0.35603761672973633],
+        [3, 0.08789723366498947]
+    ],
+    "test_loss/acc": [
+        [3, [0.318113899230957, 92.5]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.35978230895996094, 89.68]]
+    ],
+    "training_time": 2.307295799255371,
+    "out_model": "./models/_cnn2_38_12.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:13*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:13*100]",
+    "timestep": 13,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_12.pt",
+    "train_losses": [
+        [1, 0.5448324680328369],
+        [2, 0.16376376152038574],
+        [3, 0.09418655931949615]
+    ],
+    "test_loss/acc": [
+        [3, [0.3019989013671875, 93.84615384615384]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.4124196533203125, 89.04]]
+    ],
+    "training_time": 2.544344186782837,
+    "out_model": "./models/_cnn2_38_13.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:14*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:14*100]",
+    "timestep": 14,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_13.pt",
+    "train_losses": [
+        [1, 0.5194078087806702],
+        [2, 0.0883326530456543],
+        [3, 0.019192079082131386]
+    ],
+    "test_loss/acc": [
+        [3, [0.27218153817313057, 96.42857142857143]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.30992838439941406, 91.51]]
+    ],
+    "training_time": 2.6675992012023926,
+    "out_model": "./models/_cnn2_38_14.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:15*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:15*100]",
+    "timestep": 15,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_14.pt",
+    "train_losses": [
+        [1, 0.3594776690006256],
+        [2, 0.10443868488073349],
+        [3, 0.09419001638889313]
+    ],
+    "test_loss/acc": [
+        [3, [0.2746322123209635, 95.33333333333333]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2969848663330078, 92.2]]
+    ],
+    "training_time": 2.912006139755249,
+    "out_model": "./models/_cnn2_38_15.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:16*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:16*100]",
+    "timestep": 16,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_15.pt",
+    "train_losses": [
+        [1, 0.2015264928340912],
+        [2, 0.20964595675468445],
+        [3, 0.0027361074462532997]
+    ],
+    "test_loss/acc": [
+        [3, [0.24031855897133395, 96.27329192546584]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.29687542114257814, 93.17]]
+    ],
+    "training_time": 3.0321433544158936,
+    "out_model": "./models/_cnn2_38_16.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:17*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:17*100]",
+    "timestep": 17,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_16.pt",
+    "train_losses": [
+        [1, 0.1043524518609047],
+        [2, 0.026416387408971786],
+        [3, 0.009073114953935146]
+    ],
+    "test_loss/acc": [
+        [3, [0.22446834209353425, 95.93023255813954]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2896991363525391, 93.84]]
+    ],
+    "training_time": 3.1534998416900635,
+    "out_model": "./models/_cnn2_38_17.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:18*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:18*100]",
+    "timestep": 18,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_17.pt",
+    "train_losses": [
+        [1, 0.058318279683589935],
+        [2, 0.025131627917289734],
+        [3, 0.0066065713763237]
+    ],
+    "test_loss/acc": [
+        [3, [0.32775043008106003, 96.17486338797814]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.35468656616210936, 93.87]]
+    ],
+    "training_time": 3.395796775817871,
+    "out_model": "./models/_cnn2_38_18.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:19*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:19*100]",
+    "timestep": 19,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_18.pt",
+    "train_losses": [
+        [1, 0.10853257775306702],
+        [2, 0.0455775260925293],
+        [3, 0.0024221467319875956]
+    ],
+    "test_loss/acc": [
+        [3, [0.18038183389250764, 97.42268041237114]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.25587762756347654, 93.97]]
+    ],
+    "training_time": 3.51884388923645,
+    "out_model": "./models/_cnn2_38_19.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:20*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:20*100]",
+    "timestep": 20,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_19.pt",
+    "train_losses": [
+        [1, 0.058777324855327606],
+        [2, 0.09591203182935715],
+        [3, 0.003093588864430785]
+    ],
+    "test_loss/acc": [
+        [3, [0.22238781872917623, 97.05882352941177]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.26325371856689456, 94.71]]
+    ],
+    "training_time": 3.7615387439727783,
+    "out_model": "./models/_cnn2_38_20.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:21*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:21*100]",
+    "timestep": 21,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_20.pt",
+    "train_losses": [
+        [1, 0.008323202840983868],
+        [2, 0.001557297189719975],
+        [3, 0.0015195587184280157]
+    ],
+    "test_loss/acc": [
+        [3, [0.28478527960376204, 97.19626168224299]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.3011155258178711, 94.85]]
+    ],
+    "training_time": 3.8843655586242676,
+    "out_model": "./models/_cnn2_38_21.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:22*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:22*100]",
+    "timestep": 22,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_21.pt",
+    "train_losses": [
+        [1, 0.08814752101898193],
+        [2, 0.004258365370333195],
+        [3, 0.0006702911923639476]
+    ],
+    "test_loss/acc": [
+        [3, [0.25926813057490755, 96.42857142857143]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2200873992919922, 95.14]]
+    ],
+    "training_time": 4.099013328552246,
+    "out_model": "./models/_cnn2_38_22.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:23*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:23*100]",
+    "timestep": 23,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_22.pt",
+    "train_losses": [
+        [1, 0.11409657448530197],
+        [2, 0.0009010037174448371],
+        [3, 0.04878760501742363]
+    ],
+    "test_loss/acc": [
+        [3, [0.25970623635838175, 97.43589743589743]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.264330729675293, 95.06]]
+    ],
+    "training_time": 4.245679140090942,
+    "out_model": "./models/_cnn2_38_23.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:24*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:24*100]",
+    "timestep": 24,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_23.pt",
+    "train_losses": [
+        [1, 0.02161991223692894],
+        [2, 0.02816707268357277],
+        [3, 0.00013663771096616983]
+    ],
+    "test_loss/acc": [
+        [3, [0.20832785622018282, 98.36065573770492]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2709332565307617, 95.16]]
+    ],
+    "training_time": 4.367539882659912,
+    "out_model": "./models/_cnn2_38_24.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:25*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:25*100]",
+    "timestep": 25,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_24.pt",
+    "train_losses": [
+        [1, 0.41905027627944946],
+        [2, 0.00489322654902935],
+        [3, 0.0003483158361632377]
+    ],
+    "test_loss/acc": [
+        [3, [0.2038861372339444, 96.85039370078741]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2608207077026367, 95.49]]
+    ],
+    "training_time": 4.611342430114746,
+    "out_model": "./models/_cnn2_38_25.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:26*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:26*100]",
+    "timestep": 26,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_25.pt",
+    "train_losses": [
+        [1, 0.0038642806466668844],
+        [2, 0.00017233699327334762],
+        [3, 0.00013720380957238376]
+    ],
+    "test_loss/acc": [
+        [3, [0.17992216168027936, 98.10606060606061]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.26044149932861327, 95.77]]
+    ],
+    "training_time": 4.7341859340667725,
+    "out_model": "./models/_cnn2_38_26.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:27*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:27*100]",
+    "timestep": 27,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_26.pt",
+    "train_losses": [
+        [1, 0.07454805821180344],
+        [2, 0.0003678648208733648],
+        [3, 0.00015848138718865812]
+    ],
+    "test_loss/acc": [
+        [3, [0.17353298716301466, 97.44525547445255]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.23398019409179688, 95.67]]
+    ],
+    "training_time": 4.852654695510864,
+    "out_model": "./models/_cnn2_38_27.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:28*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:28*100]",
+    "timestep": 28,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_27.pt",
+    "train_losses": [
+        [1, 0.41954025626182556],
+        [2, 0.024086354300379753],
+        [3, 0.00017921437392942607]
+    ],
+    "test_loss/acc": [
+        [3, [0.1690464825697348, 98.2394366197183]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.24414554748535156, 95.62]]
+    ],
+    "training_time": 5.094049692153931,
+    "out_model": "./models/_cnn2_38_28.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:29*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:29*100]",
+    "timestep": 29,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_28.pt",
+    "train_losses": [
+        [1, 0.0021982064936310053],
+        [2, 0.0032037945929914713],
+        [3, 0.001147363567724824]
+    ],
+    "test_loss/acc": [
+        [3, [0.16609403389651758, 98.29931972789116]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.22191002349853517, 95.75]]
+    ],
+    "training_time": 5.3040382862091064,
+    "out_model": "./models/_cnn2_38_29.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:30*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:30*100]",
+    "timestep": 30,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_29.pt",
+    "train_losses": [
+        [1, 0.030964817851781845],
+        [2, 0.00011814607569249347],
+        [3, 4.75154556625057e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.13623996784812525, 98.35526315789474]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2143831283569336, 95.83]]
+    ],
+    "training_time": 5.4679319858551025,
+    "out_model": "./models/_cnn2_38_30.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:31*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:31*100]",
+    "timestep": 31,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_30.pt",
+    "train_losses": [
+        [1, 0.00010691561328712851],
+        [2, 4.5523953303927556e-05],
+        [3, 4.4492873712442815e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.16063851763488382, 98.72611464968153]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.25909019775390624, 95.92]]
+    ],
+    "training_time": 5.589489459991455,
+    "out_model": "./models/_cnn2_38_31.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:32*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:32*100]",
+    "timestep": 32,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_31.pt",
+    "train_losses": [
+        [1, 0.048877522349357605],
+        [2, 0.0007221857667900622],
+        [3, 0.0003859651042148471]
+    ],
+    "test_loss/acc": [
+        [3, [0.14250701150776426, 98.45679012345678]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.21183697662353515, 96.21]]
+    ],
+    "training_time": 5.720038890838623,
+    "out_model": "./models/_cnn2_38_32.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:33*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:33*100]",
+    "timestep": 33,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_32.pt",
+    "train_losses": [
+        [1, 0.00029283793992362916],
+        [2, 0.00015619548503309488],
+        [3, 0.0005278826574794948]
+    ],
+    "test_loss/acc": [
+        [3, [0.15798451086718165, 97.90419161676647]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2310716812133789, 96.15]]
+    ],
+    "training_time": 5.967773914337158,
+    "out_model": "./models/_cnn2_38_33.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:34*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:34*100]",
+    "timestep": 34,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_33.pt",
+    "train_losses": [
+        [1, 0.1036914512515068],
+        [2, 0.006959548685699701],
+        [3, 0.007232476957142353]
+    ],
+    "test_loss/acc": [
+        [3, [0.14406701021416243, 97.67441860465117]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2267850067138672, 96.26]]
+    ],
+    "training_time": 6.091686725616455,
+    "out_model": "./models/_cnn2_38_34.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:35*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:35*100]",
+    "timestep": 35,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_34.pt",
+    "train_losses": [
+        [1, 0.012456966564059258],
+        [2, 0.004686026833951473],
+        [3, 0.0012592690763995051]
+    ],
+    "test_loss/acc": [
+        [3, [0.19842906456209172, 96.61016949152543]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.28909881134033205, 95.15]]
+    ],
+    "training_time": 6.3321373462677,
+    "out_model": "./models/_cnn2_38_35.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:36*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:36*100]",
+    "timestep": 36,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_35.pt",
+    "train_losses": [
+        [1, 0.10291337966918945],
+        [2, 0.0005569014465436339],
+        [3, 2.3216827685246244e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.184925540462955, 96.97802197802197]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1954071533203125, 96.38]]
+    ],
+    "training_time": 6.525656461715698,
+    "out_model": "./models/_cnn2_38_36.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:37*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:37*100]",
+    "timestep": 37,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_36.pt",
+    "train_losses": [
+        [1, 0.36029675602912903],
+        [2, 0.0001202837229357101],
+        [3, 5.0293099775444716e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.16040937658299737, 97.86096256684492]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.18392913970947267, 96.49]]
+    ],
+    "training_time": 6.573542594909668,
+    "out_model": "./models/_cnn2_38_37.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:38*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:38*100]",
+    "timestep": 38,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_37.pt",
+    "train_losses": [
+        [1, 1.0556823326623999e-05],
+        [2, 0.000244925293372944],
+        [3, 9.519133163848892e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.2003615697224935, 98.17708333333333]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.22079024810791015, 96.7]]
+    ],
+    "training_time": 6.825285196304321,
+    "out_model": "./models/_cnn2_38_38.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:39*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:39*100]",
+    "timestep": 39,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_38.pt",
+    "train_losses": [
+        [1, 0.06828311830759048],
+        [2, 0.008580069057643414],
+        [3, 2.742170909186825e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.19035441984379958, 97.71573604060913]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1855766632080078, 96.73]]
+    ],
+    "training_time": 6.95963454246521,
+    "out_model": "./models/_cnn2_38_39.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:40*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:40*100]",
+    "timestep": 40,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_39.pt",
+    "train_losses": [
+        [1, 0.0030777084175497293],
+        [2, 2.2366097255144268e-05],
+        [3, 1.8384034774499014e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.2452203354032913, 97.52475247524752]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.23394367370605468, 96.52]]
+    ],
+    "training_time": 7.192469596862793,
+    "out_model": "./models/_cnn2_38_40.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:41*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:41*100]",
+    "timestep": 41,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_40.pt",
+    "train_losses": [
+        [1, 0.231089785695076],
+        [2, 0.000735027133487165],
+        [3, 6.64039544062689e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.17358092524579183, 97.82608695652173]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.18623189544677735, 96.75]]
+    ],
+    "training_time": 7.323135137557983,
+    "out_model": "./models/_cnn2_38_41.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:42*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:42*100]",
+    "timestep": 42,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_41.pt",
+    "train_losses": [
+        [1, 0.00021562889742199332],
+        [2, 0.0002489908365532756],
+        [3, 7.154994091251865e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.19141091040845187, 98.34905660377359]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.20458349380493165, 96.76]]
+    ],
+    "training_time": 7.439075708389282,
+    "out_model": "./models/_cnn2_38_42.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:43*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:43*100]",
+    "timestep": 43,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_42.pt",
+    "train_losses": [
+        [1, 0.005258966702967882],
+        [2, 0.001483255997300148],
+        [3, 0.00028842760366387665]
+    ],
+    "test_loss/acc": [
+        [3, [0.22136429817445816, 97.00460829493088]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1998046760559082, 96.74]]
+    ],
+    "training_time": 7.740878105163574,
+    "out_model": "./models/_cnn2_38_43.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:44*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:44*100]",
+    "timestep": 44,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_43.pt",
+    "train_losses": [
+        [1, 0.0016513628652319312],
+        [2, 5.5665645049884915e-05],
+        [3, 2.9505199563573115e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.17490374934565914, 98.1981981981982]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1754980049133301, 96.91]]
+    ],
+    "training_time": 7.810281991958618,
+    "out_model": "./models/_cnn2_38_44.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:45*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:45*100]",
+    "timestep": 45,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_44.pt",
+    "train_losses": [
+        [1, 0.0005495122168213129],
+        [2, 0.057443805038928986],
+        [3, 5.030580359743908e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.18395463380519514, 97.57709251101322]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.18796040344238282, 96.87]]
+    ],
+    "training_time": 8.04729676246643,
+    "out_model": "./models/_cnn2_38_45.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:46*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:46*100]",
+    "timestep": 46,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_45.pt",
+    "train_losses": [
+        [1, 0.01616736687719822],
+        [2, 8.638449799036607e-05],
+        [3, 0.001904026954434812]
+    ],
+    "test_loss/acc": [
+        [3, [0.19974889426395812, 97.84482758620689]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17818783721923828, 96.84]]
+    ],
+    "training_time": 8.18446683883667,
+    "out_model": "./models/_cnn2_38_46.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:47*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:47*100]",
+    "timestep": 47,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_46.pt",
+    "train_losses": [
+        [1, 2.6190335120190866e-05],
+        [2, 3.433841629885137e-05],
+        [3, 2.210892034781864e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.20325729112584884, 97.67932489451476]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.21060966796875, 96.92]]
+    ],
+    "training_time": 8.426253080368042,
+    "out_model": "./models/_cnn2_38_47.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:48*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:48*100]",
+    "timestep": 48,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_47.pt",
+    "train_losses": [
+        [1, 0.20813456177711487],
+        [2, 0.017485950142145157],
+        [3, 9.78555908659473e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.2014404801297779, 97.52066115702479]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.19744674224853515, 96.95]]
+    ],
+    "training_time": 8.535178422927856,
+    "out_model": "./models/_cnn2_38_48.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:49*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:49*100]",
+    "timestep": 49,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_48.pt",
+    "train_losses": [
+        [1, 0.02650967240333557],
+        [2, 0.0001141064494731836],
+        [3, 0.0005163686582818627]
+    ],
+    "test_loss/acc": [
+        [3, [0.2507223523097482, 97.36842105263158]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.23575517578125, 96.75]]
+    ],
+    "training_time": 8.672827005386353,
+    "out_model": "./models/_cnn2_38_49.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:50*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:50*100]",
+    "timestep": 50,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_49.pt",
+    "train_losses": [
+        [1, 2.6615427486831322e-05],
+        [2, 0.006150467786937952],
+        [3, 2.6076980930156424e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.19651222229003906, 98.41269841269842]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.21250701751708984, 96.85]]
+    ],
+    "training_time": 8.965895652770996,
+    "out_model": "./models/_cnn2_38_50.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:51*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:51*100]",
+    "timestep": 51,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_50.pt",
+    "train_losses": [
+        [1, 0.02150668576359749],
+        [2, 0.010926079005002975],
+        [3, 1.3613740520668216e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.13907460016035383, 98.24902723735408]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16842090072631835, 97.16]]
+    ],
+    "training_time": 9.044824838638306,
+    "out_model": "./models/_cnn2_38_51.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:52*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:52*100]",
+    "timestep": 52,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_51.pt",
+    "train_losses": [
+        [1, 0.001163931330665946],
+        [2, 9.125137876253575e-05],
+        [3, 0.00023684496409259737]
+    ],
+    "test_loss/acc": [
+        [3, [0.24081712096702051, 98.2824427480916]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.22380154571533203, 96.84]]
+    ],
+    "training_time": 9.298407793045044,
+    "out_model": "./models/_cnn2_38_52.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:53*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:53*100]",
+    "timestep": 53,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_52.pt",
+    "train_losses": [
+        [1, 9.983291965909302e-05],
+        [2, 4.098658973816782e-05],
+        [3, 0.00016608649457339197]
+    ],
+    "test_loss/acc": [
+        [3, [0.2804547999235575, 97.19101123595506]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2157860336303711, 96.93]]
+    ],
+    "training_time": 9.41251826286316,
+    "out_model": "./models/_cnn2_38_53.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:54*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:54*100]",
+    "timestep": 54,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_53.pt",
+    "train_losses": [
+        [1, 0.0005501038976944983],
+        [2, 4.117925072932849e-06],
+        [3, 3.930167622456793e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.313813798567828, 97.61029411764706]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.22987035217285157, 97.03]]
+    ],
+    "training_time": 9.541166305541992,
+    "out_model": "./models/_cnn2_38_54.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:55*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:55*100]",
+    "timestep": 55,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_54.pt",
+    "train_losses": [
+        [1, 0.08056770265102386],
+        [2, 3.92806796298828e-05],
+        [3, 6.658487109234557e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.17712230200371587, 98.37545126353791]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.18491076202392578, 97.16]]
+    ],
+    "training_time": 9.792705535888672,
+    "out_model": "./models/_cnn2_38_55.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:56*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:56*100]",
+    "timestep": 56,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_55.pt",
+    "train_losses": [
+        [1, 0.0016772395465523005],
+        [2, 2.005818168981932e-05],
+        [3, 4.4908712879987434e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.22656772153597352, 97.51773049645391]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1974589340209961, 96.89]]
+    ],
+    "training_time": 9.896824359893799,
+    "out_model": "./models/_cnn2_38_56.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:57*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:57*100]",
+    "timestep": 57,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_56.pt",
+    "train_losses": [
+        [1, 6.357719485095004e-06],
+        [2, 0.0011962252901867032],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.21034004131676012, 97.90940766550523]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16226482543945311, 97.41]]
+    ],
+    "training_time": 10.203383207321167,
+    "out_model": "./models/_cnn2_38_57.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:58*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:58*100]",
+    "timestep": 58,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_57.pt",
+    "train_losses": [
+        [1, 3.984112845500931e-05],
+        [2, 1.602551492396742e-05],
+        [3, 1.1718288078554906e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.1959186710723459, 98.28767123287672]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16763680877685547, 97.54]]
+    ],
+    "training_time": 10.275129318237305,
+    "out_model": "./models/_cnn2_38_58.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:59*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:59*100]",
+    "timestep": 59,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_58.pt",
+    "train_losses": [
+        [1, 4.633792741515208e-06],
+        [2, 9.965690696844831e-05],
+        [3, 5.103573244014115e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.2065508164942064, 97.8114478114478]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16279297256469727, 97.61]]
+    ],
+    "training_time": 10.426494121551514,
+    "out_model": "./models/_cnn2_38_59.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:60*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:60*100]",
+    "timestep": 60,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_59.pt",
+    "train_losses": [
+        [1, 0.0398477278649807],
+        [2, 1.043079933538138e-07],
+        [3, 8.009365615180286e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.23423428567040044, 97.8476821192053]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1853352439880371, 97.28]]
+    ],
+    "training_time": 10.653829097747803,
+    "out_model": "./models/_cnn2_38_60.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:61*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:61*100]",
+    "timestep": 61,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_60.pt",
+    "train_losses": [
+        [1, 0.00029496231582015753],
+        [2, 1.6577480721480242e-07],
+        [3, 7.785790785419522e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.24858903418923045, 98.2084690553746]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.18364672164916993, 97.28]]
+    ],
+    "training_time": 10.770249605178833,
+    "out_model": "./models/_cnn2_38_61.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:62*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:62*100]",
+    "timestep": 62,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_61.pt",
+    "train_losses": [
+        [1, 0.00011055248614866287],
+        [2, 1.5590112525387667e-06],
+        [3, 2.814346544255386e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.24465670952430138, 97.59615384615384]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.18065906372070312, 97.22]]
+    ],
+    "training_time": 11.021737098693848,
+    "out_model": "./models/_cnn2_38_62.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:63*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:63*100]",
+    "timestep": 63,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_62.pt",
+    "train_losses": [
+        [1, 0.002419030759483576],
+        [2, 2.3492028049076907e-05],
+        [3, 0.00017379390192218125]
+    ],
+    "test_loss/acc": [
+        [3, [0.26422564389201747, 97.94952681388013]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.21182472686767578, 97.27]]
+    ],
+    "training_time": 11.131949663162231,
+    "out_model": "./models/_cnn2_38_63.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:64*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:64*100]",
+    "timestep": 64,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_63.pt",
+    "train_losses": [
+        [1, 5.0402592023601755e-05],
+        [2, 0.00021950199152342975],
+        [3, 2.1419773474917747e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.2540859435656056, 98.2919254658385]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2315738739013672, 97.06]]
+    ],
+    "training_time": 11.264522552490234,
+    "out_model": "./models/_cnn2_38_64.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:65*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:65*100]",
+    "timestep": 65,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_64.pt",
+    "train_losses": [
+        [1, 1.2665952908719191e-07],
+        [2, 1.4342327858685167e-07],
+        [3, 8.325802127728821e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.2425609670283233, 98.31804281345566]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.23567081909179688, 97.34]]
+    ],
+    "training_time": 11.510019302368164,
+    "out_model": "./models/_cnn2_38_65.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:66*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:66*100]",
+    "timestep": 66,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_65.pt",
+    "train_losses": [
+        [1, 1.0429329449834768e-05],
+        [2, 3.680338977574138e-06],
+        [3, 8.954291843110695e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.20379018209066735, 97.89156626506023]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.18807693328857422, 97.31]]
+    ],
+    "training_time": 11.633511781692505,
+    "out_model": "./models/_cnn2_38_66.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:67*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:67*100]",
+    "timestep": 67,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_66.pt",
+    "train_losses": [
+        [1, 0.021569686010479927],
+        [2, 0.0047879512421786785],
+        [3, 8.677314326632768e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.25429193060900407, 97.47774480712167]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.20139019317626952, 97.17]]
+    ],
+    "training_time": 11.87604808807373,
+    "out_model": "./models/_cnn2_38_67.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:68*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:68*100]",
+    "timestep": 68,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_67.pt",
+    "train_losses": [
+        [1, 7.332878158194944e-05],
+        [2, 1.1907472071470693e-05],
+        [3, 3.14212093144306e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.2723767241539314, 97.36842105263158]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2110855972290039, 97.26]]
+    ],
+    "training_time": 12.001888513565063,
+    "out_model": "./models/_cnn2_38_68.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:69*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:69*100]",
+    "timestep": 69,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_68.pt",
+    "train_losses": [
+        [1, 0.0002459932293277234],
+        [2, 0.003069356083869934],
+        [3, 0.00032158137764781713]
+    ],
+    "test_loss/acc": [
+        [3, [0.2261268549762473, 97.69452449567723]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.20329418182373046, 97.5]]
+    ],
+    "training_time": 12.143101930618286,
+    "out_model": "./models/_cnn2_38_69.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:70*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:70*100]",
+    "timestep": 70,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_69.pt",
+    "train_losses": [
+        [1, 1.5366098523372784e-05],
+        [2, 4.030544005217962e-06],
+        [3, 0.0006577778258360922]
+    ],
+    "test_loss/acc": [
+        [3, [0.19201729514382102, 97.72727272727273]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1524596710205078, 97.62]]
+    ],
+    "training_time": 12.388262033462524,
+    "out_model": "./models/_cnn2_38_70.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:71*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:71*100]",
+    "timestep": 71,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_70.pt",
+    "train_losses": [
+        [1, 1.4093401659920346e-05],
+        [2, 0.00017546727031003684],
+        [3, 2.062093153654132e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.18970968209060968, 98.03921568627452]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16913722076416016, 97.47]]
+    ],
+    "training_time": 12.51225757598877,
+    "out_model": "./models/_cnn2_38_71.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:72*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:72*100]",
+    "timestep": 72,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_71.pt",
+    "train_losses": [
+        [1, 0.10658500343561172],
+        [2, 0.00011010379967046902],
+        [3, 0.0001221712154801935]
+    ],
+    "test_loss/acc": [
+        [3, [0.19843254300112223, 97.92817679558011]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17801352996826172, 97.67]]
+    ],
+    "training_time": 12.74002480506897,
+    "out_model": "./models/_cnn2_38_72.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:73*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:73*100]",
+    "timestep": 73,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_72.pt",
+    "train_losses": [
+        [1, 0.007879153825342655],
+        [2, 0.037215881049633026],
+        [3, 1.9333410818944685e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.1679959310173014, 97.95640326975477]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16601036911010741, 97.5]]
+    ],
+    "training_time": 12.868904829025269,
+    "out_model": "./models/_cnn2_38_73.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:74*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:74*100]",
+    "timestep": 74,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_73.pt",
+    "train_losses": [
+        [1, 5.755497909376572e-07],
+        [2, 5.837017852172721e-06],
+        [3, 6.36170852885698e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.21235318337717363, 97.84946236559139]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.19068681182861327, 97.53]]
+    ],
+    "training_time": 12.985020875930786,
+    "out_model": "./models/_cnn2_38_74.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:75*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:75*100]",
+    "timestep": 75,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_74.pt",
+    "train_losses": [
+        [1, 0.007317971438169479],
+        [2, 4.292980520403944e-06],
+        [3, 1.9631991108326474e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.19804341849977206, 97.61273209549071]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1702834083557129, 97.4]]
+    ],
+    "training_time": 13.250731706619263,
+    "out_model": "./models/_cnn2_38_75.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:76*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:76*100]",
+    "timestep": 76,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_75.pt",
+    "train_losses": [
+        [1, 1.0167272193939425e-05],
+        [2, 4.592826826410601e-06],
+        [3, 2.3468501240131445e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.19770307690685332, 98.03664921465969]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1890518844604492, 97.46]]
+    ],
+    "training_time": 13.373745441436768,
+    "out_model": "./models/_cnn2_38_76.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:77*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:77*100]",
+    "timestep": 77,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_76.pt",
+    "train_losses": [
+        [1, 0.0011791301658377051],
+        [2, 0.0024845930747687817],
+        [3, 1.7070535250240937e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.2126434089601502, 97.80361757105943]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.21778897857666016, 97.38]]
+    ],
+    "training_time": 13.595136165618896,
+    "out_model": "./models/_cnn2_38_77.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:78*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:78*100]",
+    "timestep": 78,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_77.pt",
+    "train_losses": [
+        [1, 0.0018071394879370928],
+        [2, 0.00674873311072588],
+        [3, 7.655411309315241e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.20002787453787668, 97.70408163265306]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1902770523071289, 97.37]]
+    ],
+    "training_time": 13.743619918823242,
+    "out_model": "./models/_cnn2_38_78.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:79*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:79*100]",
+    "timestep": 79,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_78.pt",
+    "train_losses": [
+        [1, 0.0018543240148574114],
+        [2, 5.802711893920787e-05],
+        [3, 0.0003615414025261998]
+    ],
+    "test_loss/acc": [
+        [3, [0.2666662874389956, 97.60705289672543]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1873029327392578, 97.55]]
+    ],
+    "training_time": 13.992382764816284,
+    "out_model": "./models/_cnn2_38_79.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:80*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:80*100]",
+    "timestep": 80,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_79.pt",
+    "train_losses": [
+        [1, 0.12177609652280807],
+        [2, 5.021311153541319e-06],
+        [3, 5.278229309624294e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.2369500535044504, 97.51243781094527]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.18121556930541993, 97.5]]
+    ],
+    "training_time": 14.090291500091553,
+    "out_model": "./models/_cnn2_38_80.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:81*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:81*100]",
+    "timestep": 81,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_80.pt",
+    "train_losses": [
+        [1, 4.306044047552859e-06],
+        [2, 3.404764811421046e-06],
+        [3, 2.8312035738053964e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.2611847486191358, 97.78869778869779]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.20845636138916016, 97.56]]
+    ],
+    "training_time": 14.1896071434021,
+    "out_model": "./models/_cnn2_38_81.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:82*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:82*100]",
+    "timestep": 82,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_81.pt",
+    "train_losses": [
+        [1, 2.0649507860071026e-05],
+        [2, 4.8240272008115426e-06],
+        [3, 4.599931708071381e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.20525460104340487, 97.9368932038835]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17304832077026366, 97.53]]
+    ],
+    "training_time": 14.492415428161621,
+    "out_model": "./models/_cnn2_38_82.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:83*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:83*100]",
+    "timestep": 83,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_82.pt",
+    "train_losses": [
+        [1, 0.000291673670290038],
+        [2, 1.9390541638131253e-05],
+        [3, 2.1024652596679516e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.19344816505194282, 97.3621103117506]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16827317962646485, 97.62]]
+    ],
+    "training_time": 14.620528221130371,
+    "out_model": "./models/_cnn2_38_83.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:84*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:84*100]",
+    "timestep": 84,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_83.pt",
+    "train_losses": [
+        [1, 0.0002516154490876943],
+        [2, 0.00016599470109213144],
+        [3, 0.0011660594027489424]
+    ],
+    "test_loss/acc": [
+        [3, [0.18073500502166026, 97.03791469194313]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.15818735885620117, 97.69]]
+    ],
+    "training_time": 14.83755874633789,
+    "out_model": "./models/_cnn2_38_84.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:85*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:85*100]",
+    "timestep": 85,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_84.pt",
+    "train_losses": [
+        [1, 1.533680006104987e-05],
+        [2, 4.693816322287603e-07],
+        [3, 9.477340427110903e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.21380254312198113, 97.30679156908666]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1556425750732422, 97.54]]
+    ],
+    "training_time": 14.96690583229065,
+    "out_model": "./models/_cnn2_38_85.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:86*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:86*100]",
+    "timestep": 86,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_85.pt",
+    "train_losses": [
+        [1, 1.223986032528046e-06],
+        [2, 0.00032565119909122586],
+        [3, 1.63647964654956e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.2001467987343117, 97.80092592592592]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.18985609741210938, 97.45]]
+    ],
+    "training_time": 15.181520462036133,
+    "out_model": "./models/_cnn2_38_86.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:87*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:87*100]",
+    "timestep": 87,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_86.pt",
+    "train_losses": [
+        [1, 8.216391870519146e-05],
+        [2, 0.0002266974188387394],
+        [3, 0.00028916308656334877]
+    ],
+    "test_loss/acc": [
+        [3, [0.19707457588248176, 97.59725400457666]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1629374122619629, 97.71]]
+    ],
+    "training_time": 15.328331708908081,
+    "out_model": "./models/_cnn2_38_87.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:88*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:88*100]",
+    "timestep": 88,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_87.pt",
+    "train_losses": [
+        [1, 0.09043680876493454],
+        [2, 0.0003507453657221049],
+        [3, 1.545992347473657e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.21634130348447222, 97.62443438914028]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17577640991210938, 97.7]]
+    ],
+    "training_time": 15.438867092132568,
+    "out_model": "./models/_cnn2_38_88.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:89*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:89*100]",
+    "timestep": 89,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_88.pt",
+    "train_losses": [
+        [1, 3.190465804436826e-06],
+        [2, 0.03450741618871689],
+        [3, 7.361411917372607e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.2961561642503845, 97.31543624161074]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17981553802490235, 97.69]]
+    ],
+    "training_time": 15.734042644500732,
+    "out_model": "./models/_cnn2_38_89.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:90*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:90*100]",
+    "timestep": 90,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_89.pt",
+    "train_losses": [
+        [1, 5.029137994938537e-08],
+        [2, 1.396979314449709e-07],
+        [3, 3.669393038308044e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.29030700278493154, 97.45575221238938]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17574937438964844, 97.82]]
+    ],
+    "training_time": 15.830254316329956,
+    "out_model": "./models/_cnn2_38_90.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:91*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:91*100]",
+    "timestep": 91,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_90.pt",
+    "train_losses": [
+        [1, 0.004182415548712015],
+        [2, 0.01035782415419817],
+        [3, 1.0803164514072705e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.2725673316604982, 97.81181619256017]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17314782257080077, 97.7]]
+    ],
+    "training_time": 15.96062421798706,
+    "out_model": "./models/_cnn2_38_91.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:92*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:92*100]",
+    "timestep": 92,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_91.pt",
+    "train_losses": [
+        [1, 1.4717031262989622e-05],
+        [2, 2.2120804715086706e-05],
+        [3, 1.303851426825986e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.21502206645486674, 97.40259740259741]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16962575378417968, 97.63]]
+    ],
+    "training_time": 16.23418951034546,
+    "out_model": "./models/_cnn2_38_92.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:93*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:93*100]",
+    "timestep": 93,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_92.pt",
+    "train_losses": [
+        [1, 7.561292022728594e-06],
+        [2, 1.7077468328352552e-06],
+        [3, 0.0002664656494744122]
+    ],
+    "test_loss/acc": [
+        [3, [0.25629284550342113, 97.64453961456103]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1885640090942383, 97.66]]
+    ],
+    "training_time": 16.40227246284485,
+    "out_model": "./models/_cnn2_38_93.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:94*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:94*100]",
+    "timestep": 94,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_93.pt",
+    "train_losses": [
+        [1, 0.0002319688501302153],
+        [2, 6.633411430811975e-06],
+        [3, 8.840348164085299e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.1840940572447696, 97.88135593220339]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1493433982849121, 97.72]]
+    ],
+    "training_time": 16.567785501480103,
+    "out_model": "./models/_cnn2_38_94.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:95*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:95*100]",
+    "timestep": 95,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_94.pt",
+    "train_losses": [
+        [1, 0.0020217292476445436],
+        [2, 1.0449149385749479e-06],
+        [3, 1.4901157641133977e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.1687317054476628, 98.0083857442348]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.18208882064819337, 97.76]]
+    ],
+    "training_time": 16.67911720275879,
+    "out_model": "./models/_cnn2_38_95.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:96*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:96*100]",
+    "timestep": 96,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_95.pt",
+    "train_losses": [
+        [1, 5.4591387197433505e-06],
+        [2, 7.708044904575218e-06],
+        [3, 0.0002928210305981338]
+    ],
+    "test_loss/acc": [
+        [3, [0.16085308913868, 97.82157676348548]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1739427795410156, 97.72]]
+    ],
+    "training_time": 16.81367063522339,
+    "out_model": "./models/_cnn2_38_96.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:97*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:97*100]",
+    "timestep": 97,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_96.pt",
+    "train_losses": [
+        [1, 2.110601963067893e-05],
+        [2, 4.047186848765705e-06],
+        [3, 3.9259630284504965e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.15850852010676014, 98.04928131416838]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1703192024230957, 97.89]]
+    ],
+    "training_time": 17.030601501464844,
+    "out_model": "./models/_cnn2_38_97.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:98*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:98*100]",
+    "timestep": 98,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_97.pt",
+    "train_losses": [
+        [1, 4.600717034008994e-07],
+        [2, 3.7863023862882983e-06],
+        [3, 2.2574283775611548e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.15570147444562213, 97.96747967479675]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17103858871459962, 97.92]]
+    ],
+    "training_time": 17.185081720352173,
+    "out_model": "./models/_cnn2_38_98.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:99*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:99*100]",
+    "timestep": 99,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_98.pt",
+    "train_losses": [
+        [1, 0.0003018046263605356],
+        [2, 2.8125825224378787e-07],
+        [3, 6.575021984644991e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.19419685839647258, 98.2897384305835]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1908450180053711, 97.81]]
+    ],
+    "training_time": 17.42983603477478,
+    "out_model": "./models/_cnn2_38_99.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:100*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:100*100]",
+    "timestep": 100,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_99.pt",
+    "train_losses": [
+        [1, 0.0002885935246013105],
+        [2, 6.407124146790011e-06],
+        [3, 3.311368956815386e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.12333955042865646, 98.50597609561753]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1536775718688965, 98.08]]
+    ],
+    "training_time": 17.632458686828613,
+    "out_model": "./models/_cnn2_38_100.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:101*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:101*100]",
+    "timestep": 101,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_100.pt",
+    "train_losses": [
+        [1, 1.8067601104121422e-07],
+        [2, 1.862644793959589e-08],
+        [3, 9.313224857976365e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.13726933044794748, 98.42209072978304]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16230209732055664, 97.99]]
+    ],
+    "training_time": 17.701122760772705,
+    "out_model": "./models/_cnn2_38_101.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:102*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:102*100]",
+    "timestep": 102,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_101.pt",
+    "train_losses": [
+        [1, 3.2409832328994526e-07],
+        [2, 8.474934816149471e-07],
+        [3, 7.05930972344504e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.12268916089306003, 98.33984375]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.15588491592407228, 98.01]]
+    ],
+    "training_time": 17.915254831314087,
+    "out_model": "./models/_cnn2_38_102.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:103*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:103*100]",
+    "timestep": 103,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_102.pt",
+    "train_losses": [
+        [1, 1.879202318377793e-05],
+        [2, 8.87461101228837e-06],
+        [3, 1.1417845371397561e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.1304542506455914, 98.35589941972921]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.15701965980529786, 98.05]]
+    ],
+    "training_time": 18.04115390777588,
+    "out_model": "./models/_cnn2_38_103.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:104*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:104*100]",
+    "timestep": 104,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_103.pt",
+    "train_losses": [
+        [1, 1.004972818918759e-05],
+        [2, 1.8626450382086546e-09],
+        [3, 1.4299274880613666e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.17260829516297557, 98.27586206896552]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16497058715820312, 97.91]]
+    ],
+    "training_time": 18.321101665496826,
+    "out_model": "./models/_cnn2_38_104.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:105*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:105*100]",
+    "timestep": 105,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_104.pt",
+    "train_losses": [
+        [1, 1.0753233254945371e-05],
+        [2, 1.8551417042544927e-06],
+        [3, 4.172711123828776e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.15425165871289015, 98.10246679316889]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16623144836425782, 98.04]]
+    ],
+    "training_time": 18.4008686542511,
+    "out_model": "./models/_cnn2_38_105.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:106*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:106*100]",
+    "timestep": 106,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_105.pt",
+    "train_losses": [
+        [1, 1.7489784340796177e-06],
+        [2, 6.016239240125287e-07],
+        [3, 5.215398957147954e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.15416920061846426, 98.1203007518797]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1671216941833496, 98.04]]
+    ],
+    "training_time": 18.52871346473694,
+    "out_model": "./models/_cnn2_38_106.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:107*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:107*100]",
+    "timestep": 107,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_106.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 4.126473740484471e-08],
+        [3, 2.177802116420935e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.15589591511134995, 98.41713221601489]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16514255142211914, 98.04]]
+    ],
+    "training_time": 18.82206130027771,
+    "out_model": "./models/_cnn2_38_107.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:108*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:108*100]",
+    "timestep": 108,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_107.pt",
+    "train_losses": [
+        [1, 0.026455234736204147],
+        [2, 3.3527587817161475e-08],
+        [3, 3.520360110087495e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.15915117772533197, 98.06273062730628]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17804026870727538, 97.77]]
+    ],
+    "training_time": 18.88243079185486,
+    "out_model": "./models/_cnn2_38_108.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:109*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:109*100]",
+    "timestep": 109,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_108.pt",
+    "train_losses": [
+        [1, 9.053565736394376e-05],
+        [2, 7.394644967462227e-07],
+        [3, 1.3203804883232806e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.1906409189513658, 98.17184643510055]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1558548812866211, 97.84]]
+    ],
+    "training_time": 19.16131281852722,
+    "out_model": "./models/_cnn2_38_109.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:110*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:110*100]",
+    "timestep": 110,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_109.pt",
+    "train_losses": [
+        [1, 2.841456444002688e-05],
+        [2, 1.1045364090023213e-06],
+        [3, 7.5949064921587706e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.18362670488979504, 98.46014492753623]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1767007858276367, 97.72]]
+    ],
+    "training_time": 19.28647804260254,
+    "out_model": "./models/_cnn2_38_110.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:111*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:111*100]",
+    "timestep": 111,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_110.pt",
+    "train_losses": [
+        [1, 2.1234100699984992e-07],
+        [2, 4.190392701275414e-06],
+        [3, 5.904538511458668e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.18558367492885122, 98.29443447037701]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17779248046875, 97.76]]
+    ],
+    "training_time": 19.546983242034912,
+    "out_model": "./models/_cnn2_38_111.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:112*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:112*100]",
+    "timestep": 112,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_111.pt",
+    "train_losses": [
+        [1, 0.003318971721455455],
+        [2, 2.527450078559923e-06],
+        [3, 1.402513248649484e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.21516585774268968, 97.68683274021352]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16376085968017579, 97.92]]
+    ],
+    "training_time": 19.650965213775635,
+    "out_model": "./models/_cnn2_38_112.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:113*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:113*100]",
+    "timestep": 113,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_112.pt",
+    "train_losses": [
+        [1, 0.19271114468574524],
+        [2, 0.00012062886526109651],
+        [3, 1.5608219428031589e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.22012863966523025, 98.05996472663139]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1588421890258789, 97.91]]
+    ],
+    "training_time": 19.795300006866455,
+    "out_model": "./models/_cnn2_38_113.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:114*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:114*100]",
+    "timestep": 114,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_113.pt",
+    "train_losses": [
+        [1, 1.6391062445109128e-06],
+        [2, 0.0008581362199038267],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.22228964475484994, 97.81468531468532]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.15909858322143555, 98.01]]
+    ],
+    "training_time": 20.086785793304443,
+    "out_model": "./models/_cnn2_38_114.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:115*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:115*100]",
+    "timestep": 115,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_114.pt",
+    "train_losses": [
+        [1, 1.508739586597585e-07],
+        [2, 2.4214367400077208e-08],
+        [3, 7.040659966150997e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.24259962614115643, 98.09358752166378]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16560315322875976, 98.12]]
+    ],
+    "training_time": 20.168686866760254,
+    "out_model": "./models/_cnn2_38_115.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:116*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:116*100]",
+    "timestep": 116,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_115.pt",
+    "train_losses": [
+        [1, 1.1117915164504666e-05],
+        [2, 2.415667495370144e-06],
+        [3, 4.563418372072192e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.2320724500413613, 97.9381443298969]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16488221588134766, 97.8]]
+    ],
+    "training_time": 20.38686752319336,
+    "out_model": "./models/_cnn2_38_116.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:117*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:117*100]",
+    "timestep": 117,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_116.pt",
+    "train_losses": [
+        [1, 0.024683114141225815],
+        [2, 7.881870988057926e-05],
+        [3, 1.539104778203182e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.26621114415651287, 97.5298126064736]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.20461988677978515, 97.79]]
+    ],
+    "training_time": 20.511351108551025,
+    "out_model": "./models/_cnn2_38_117.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:118*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:118*100]",
+    "timestep": 118,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_117.pt",
+    "train_losses": [
+        [1, 3.996959549112944e-06],
+        [2, 0.024525530636310577],
+        [3, 9.313223081619526e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.24539228387781092, 98.05743243243244]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.20366247177124022, 97.86]]
+    ],
+    "training_time": 20.652543544769287,
+    "out_model": "./models/_cnn2_38_118.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:119*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:119*100]",
+    "timestep": 119,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_118.pt",
+    "train_losses": [
+        [1, 1.0207086234004237e-06],
+        [2, 8.586629860474204e-07],
+        [3, 6.370117375809059e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.22859816655042384, 97.98994974874371]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2062512191772461, 97.95]]
+    ],
+    "training_time": 20.904271841049194,
+    "out_model": "./models/_cnn2_38_119.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:120*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:120*100]",
+    "timestep": 120,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_119.pt",
+    "train_losses": [
+        [1, 0.05873407423496246],
+        [2, 0.009555590339004993],
+        [3, 5.960453819398026e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.24592201495883473, 98.08970099667773]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.21011855010986327, 97.94]]
+    ],
+    "training_time": 21.02037000656128,
+    "out_model": "./models/_cnn2_38_120.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:121*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:121*100]",
+    "timestep": 121,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_120.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.22137958331791532, 98.10543657331137]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1892759452819824, 97.95]]
+    ],
+    "training_time": 21.30305314064026,
+    "out_model": "./models/_cnn2_38_121.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:122*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:122*100]",
+    "timestep": 122,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_121.pt",
+    "train_losses": [
+        [1, 0.0596749521791935],
+        [2, 3.2774631108623e-05],
+        [3, 6.5998415266221855e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.16808271408081055, 98.44771241830065]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.18267476043701172, 97.92]]
+    ],
+    "training_time": 21.403839111328125,
+    "out_model": "./models/_cnn2_38_122.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:123*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:123*100]",
+    "timestep": 123,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_122.pt",
+    "train_losses": [
+        [1, 0.09646347165107727],
+        [2, 1.1007909961335827e-06],
+        [3, 9.313217219641956e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.17136596049056835, 98.21717990275526]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.15862260208129883, 98.01]]
+    ],
+    "training_time": 21.501501083374023,
+    "out_model": "./models/_cnn2_38_123.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:124*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:124*100]",
+    "timestep": 124,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_123.pt",
+    "train_losses": [
+        [1, 6.9446991801669355e-06],
+        [2, 0.0016090626595541835],
+        [3, 4.593528137775138e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.21500215499730738, 98.15112540192926]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17646692810058595, 98.04]]
+    ],
+    "training_time": 21.75789713859558,
+    "out_model": "./models/_cnn2_38_124.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:125*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:125*100]",
+    "timestep": 125,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_124.pt",
+    "train_losses": [
+        [1, 0.00014912395272403955],
+        [2, 5.6560700613772497e-05],
+        [3, 1.8626450382086546e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.17884639575720973, 98.32535885167464]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17544683990478516, 98.08]]
+    ],
+    "training_time": 21.890918254852295,
+    "out_model": "./models/_cnn2_38_125.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:126*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:126*100]",
+    "timestep": 126,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_125.pt",
+    "train_losses": [
+        [1, 0.00012419176346156746],
+        [2, 8.865940230862179e-07],
+        [3, 1.2852225950155116e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.13189874117887473, 98.41772151898734]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17688609161376953, 98.08]]
+    ],
+    "training_time": 22.122891902923584,
+    "out_model": "./models/_cnn2_38_126.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:127*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:127*100]",
+    "timestep": 127,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_126.pt",
+    "train_losses": [
+        [1, 1.918512708698472e-07],
+        [2, 2.9243258836686437e-07],
+        [3, 3.682165697682649e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.15154125776545407, 98.43014128728414]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.18844830169677734, 98.02]]
+    ],
+    "training_time": 22.27813196182251,
+    "out_model": "./models/_cnn2_38_127.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:128*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:128*100]",
+    "timestep": 128,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_127.pt",
+    "train_losses": [
+        [1, 0.00029543868731707335],
+        [2, 0.003675770713016391],
+        [3, 8.195627287932439e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.17317909540788406, 98.3644859813084]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17889692916870117, 98.02]]
+    ],
+    "training_time": 22.37849473953247,
+    "out_model": "./models/_cnn2_38_128.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:129*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:129*100]",
+    "timestep": 129,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_128.pt",
+    "train_losses": [
+        [1, 0.0008157677948474884],
+        [2, 0.0005124042509123683],
+        [3, 0.06857583671808243]
+    ],
+    "test_loss/acc": [
+        [3, [0.16335453169054742, 98.14528593508501]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.15491891555786133, 98.2]]
+    ],
+    "training_time": 22.627827167510986,
+    "out_model": "./models/_cnn2_38_129.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:130*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:130*100]",
+    "timestep": 130,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_129.pt",
+    "train_losses": [
+        [1, 0.0003348880563862622],
+        [2, 1.129475003835978e-05],
+        [3, 0.0012153427815064788]
+    ],
+    "test_loss/acc": [
+        [3, [0.19525078030451676, 98.2361963190184]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1703697395324707, 98.15]]
+    ],
+    "training_time": 22.74228286743164,
+    "out_model": "./models/_cnn2_38_130.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:131*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:131*100]",
+    "timestep": 131,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_130.pt",
+    "train_losses": [
+        [1, 0.01946777105331421],
+        [2, 1.0420008038636297e-05],
+        [3, 2.9802311729554276e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.23051554826478074, 98.09741248097413]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1971612365722656, 98.02]]
+    ],
+    "training_time": 23.00226330757141,
+    "out_model": "./models/_cnn2_38_131.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:132*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:132*100]",
+    "timestep": 132,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_131.pt",
+    "train_losses": [
+        [1, 1.2293409668018285e-07],
+        [2, 0.00013034108269494027],
+        [3, 1.3688363651453983e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.23439909540274353, 98.33836858006042]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.19883101806640624, 98.16]]
+    ],
+    "training_time": 23.09356379508972,
+    "out_model": "./models/_cnn2_38_132.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:133*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:133*100]",
+    "timestep": 133,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_132.pt",
+    "train_losses": [
+        [1, 8.588318451074883e-06],
+        [2, 3.751060376089299e-06],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.17178945098144896, 98.20089955022489]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1915273857116699, 98.07]]
+    ],
+    "training_time": 23.23527455329895,
+    "out_model": "./models/_cnn2_38_133.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:134*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:134*100]",
+    "timestep": 134,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_133.pt",
+    "train_losses": [
+        [1, 0.002823802875354886],
+        [2, 1.0449302862980403e-06],
+        [3, 7.078038066765657e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.18542238076527914, 98.21428571428571]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17359147872924804, 98.19]]
+    ],
+    "training_time": 23.48203444480896,
+    "out_model": "./models/_cnn2_38_134.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:135*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:135*100]",
+    "timestep": 135,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_134.pt",
+    "train_losses": [
+        [1, 1.4528252449963475e-06],
+        [2, 2.235172580355993e-08],
+        [3, 5.5879255000945705e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.20342838394412965, 98.52289512555392]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.19262567138671874, 98.13]]
+    ],
+    "training_time": 23.60612154006958,
+    "out_model": "./models/_cnn2_38_135.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:136*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:136*100]",
+    "timestep": 136,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_135.pt",
+    "train_losses": [
+        [1, 0.059785015881061554],
+        [2, 3.2407415346824564e-06],
+        [3, 1.2619930203072727e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.18560715225085486, 98.82697947214076]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.18696571350097657, 98.17]]
+    ],
+    "training_time": 23.870480060577393,
+    "out_model": "./models/_cnn2_38_136.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:137*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:137*100]",
+    "timestep": 137,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_136.pt",
+    "train_losses": [
+        [1, 0.00011996582907158881],
+        [2, 9.909028904075967e-07],
+        [3, 1.3732882507611066e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.21140425902787255, 98.47161572052401]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1791974967956543, 98.3]]
+    ],
+    "training_time": 23.98815393447876,
+    "out_model": "./models/_cnn2_38_137.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:138*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:138*100]",
+    "timestep": 138,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_137.pt",
+    "train_losses": [
+        [1, 7.748429311504879e-07],
+        [2, 4.134573828196153e-06],
+        [3, 3.309627118142089e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.19664274336974744, 98.48265895953757]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17294976959228517, 98.14]]
+    ],
+    "training_time": 24.1077139377594,
+    "out_model": "./models/_cnn2_38_138.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:139*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:139*100]",
+    "timestep": 139,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_138.pt",
+    "train_losses": [
+        [1, 1.8495011318009347e-06],
+        [2, 1.3601474165625405e-05],
+        [3, 1.8253851408189803e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.1956605514460691, 98.63701578192253]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.18044658203125, 98.17]]
+    ],
+    "training_time": 24.322786569595337,
+    "out_model": "./models/_cnn2_38_139.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:140*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:140*100]",
+    "timestep": 140,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_139.pt",
+    "train_losses": [
+        [1, 6.723302067257464e-05],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.211295815274926, 98.86039886039886]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1930367042541504, 98.27]]
+    ],
+    "training_time": 24.46051836013794,
+    "out_model": "./models/_cnn2_38_140.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:141*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:141*100]",
+    "timestep": 141,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_140.pt",
+    "train_losses": [
+        [1, 0.00022470837575383484],
+        [2, 7.301422897398879e-07],
+        [3, 2.6077016102021844e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.1868669841717797, 98.7977369165488]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.18777769317626952, 98.3]]
+    ],
+    "training_time": 24.682660818099976,
+    "out_model": "./models/_cnn2_38_141.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:142*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:142*100]",
+    "timestep": 142,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_141.pt",
+    "train_losses": [
+        [1, 0.02729048766195774],
+        [2, 1.0728543884397368e-06],
+        [3, 9.31319803498809e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.1903808545530512, 98.59550561797752]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.18573154525756835, 98.17]]
+    ],
+    "training_time": 24.832677364349365,
+    "out_model": "./models/_cnn2_38_142.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:143*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:143*100]",
+    "timestep": 143,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_142.pt",
+    "train_losses": [
+        [1, 0.005570887587964535],
+        [2, 0.00026415454340167344],
+        [3, 1.5646179463146836e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.15337662849798694, 98.67503486750348]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16233886184692384, 98.29]]
+    ],
+    "training_time": 25.100486755371094,
+    "out_model": "./models/_cnn2_38_143.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:144*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:144*100]",
+    "timestep": 144,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_143.pt",
+    "train_losses": [
+        [1, 2.048908598339949e-08],
+        [2, 3.1664953326071554e-08],
+        [3, 9.313223969797946e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.1573621004902425, 98.6842105263158]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16430361785888672, 98.31]]
+    ],
+    "training_time": 25.198392152786255,
+    "out_model": "./models/_cnn2_38_144.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:145*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:145*100]",
+    "timestep": 145,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_144.pt",
+    "train_losses": [
+        [1, 4.765190533362329e-05],
+        [2, 0.00019483502546790987],
+        [3, 2.6894408620137256e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.1711526969767994, 98.55570839064649]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.15812882995605468, 98.31]]
+    ],
+    "training_time": 25.3419189453125,
+    "out_model": "./models/_cnn2_38_145.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:146*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:146*100]",
+    "timestep": 146,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_145.pt",
+    "train_losses": [
+        [1, 3.091966220836184e-07],
+        [2, 0.0008938132668845356],
+        [3, 9.610181223251857e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.19375395644557933, 98.36065573770492]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17187957305908202, 98.31]]
+    ],
+    "training_time": 25.55763053894043,
+    "out_model": "./models/_cnn2_38_146.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:147*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:147*100]",
+    "timestep": 147,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_146.pt",
+    "train_losses": [
+        [1, 3.164582449244335e-05],
+        [2, 0.0002064832951873541],
+        [3, 1.2293422457787528e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.14730361617565801, 98.5753052917232]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.15833130874633788, 98.37]]
+    ],
+    "training_time": 25.721784591674805,
+    "out_model": "./models/_cnn2_38_147.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:148*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:148*100]",
+    "timestep": 148,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_147.pt",
+    "train_losses": [
+        [1, 0.0054164971224963665],
+        [2, 0.08542661368846893],
+        [3, 1.2480324585339986e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.19424131038696618, 98.38274932614556]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.18240724868774413, 98.33]]
+    ],
+    "training_time": 25.90827226638794,
+    "out_model": "./models/_cnn2_38_148.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:149*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:149*100]",
+    "timestep": 149,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_148.pt",
+    "train_losses": [
+        [1, 1.0244514925261683e-07],
+        [2, 1.1734620386505412e-07],
+        [3, 6.38879612324672e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.22177749082266565, 98.39357429718875]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1849456367492676, 98.32]]
+    ],
+    "training_time": 26.08707594871521,
+    "out_model": "./models/_cnn2_38_149.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:150*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:150*100]",
+    "timestep": 150,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_149.pt",
+    "train_losses": [
+        [1, 2.1287371865241766e-09],
+        [2, 2.894966428357293e-06],
+        [3, 9.579293447359305e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.1792889655904567, 98.60372340425532]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17457509689331055, 98.5]]
+    ],
+    "training_time": 26.25916314125061,
+    "out_model": "./models/_cnn2_38_150.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:151*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:151*100]",
+    "timestep": 151,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_150.pt",
+    "train_losses": [
+        [1, 5.587935003603661e-09],
+        [2, 1.23302436350059e-06],
+        [3, 7.320023769352701e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.20281756664361789, 98.41479524438573]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1693320526123047, 98.37]]
+    ],
+    "training_time": 26.44251275062561,
+    "out_model": "./models/_cnn2_38_151.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:152*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:152*100]",
+    "timestep": 152,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_151.pt",
+    "train_losses": [
+        [1, 0.12383173406124115],
+        [2, 1.1175867342672063e-08],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.22917741490161325, 98.62204724409449]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16156498184204102, 98.41]]
+    ],
+    "training_time": 26.558141469955444,
+    "out_model": "./models/_cnn2_38_152.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:153*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:153*100]",
+    "timestep": 153,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_152.pt",
+    "train_losses": [
+        [1, 2.0489028429437894e-07],
+        [2, 6.5960966821876355e-06],
+        [3, 1.8626450382086546e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.206438838580752, 98.76140808344198]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1581872383117676, 98.53]]
+    ],
+    "training_time": 26.81761860847473,
+    "out_model": "./models/_cnn2_38_153.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:154*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:154*100]",
+    "timestep": 154,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_153.pt",
+    "train_losses": [
+        [1, 5.587935003603661e-09],
+        [2, 4.1909171955012425e-07],
+        [3, 1.5207459910016041e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.21953233412510373, 98.70466321243524]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1723362762451172, 98.53]]
+    ],
+    "training_time": 26.941922903060913,
+    "out_model": "./models/_cnn2_38_154.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:155*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:155*100]",
+    "timestep": 155,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_154.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 5.587934559514451e-09],
+        [3, 8.940452289607492e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.21959362496433724, 98.64864864864865]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1782643783569336, 98.49]]
+    ],
+    "training_time": 27.062608003616333,
+    "out_model": "./models/_cnn2_38_155.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:156*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:156*100]",
+    "timestep": 156,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_155.pt",
+    "train_losses": [
+        [1, 1.6669816886860644e-06],
+        [2, 5.587934559514451e-09],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.21491000475481037, 98.65728900255755]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17469983978271483, 98.54]]
+    ],
+    "training_time": 27.284343481063843,
+    "out_model": "./models/_cnn2_38_156.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:157*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:157*100]",
+    "timestep": 157,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_156.pt",
+    "train_losses": [
+        [1, 0.30982014536857605],
+        [2, 3.3689323686303396e-07],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.19090559643135896, 98.66581956797967]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1763646255493164, 98.36]]
+    ],
+    "training_time": 27.539583683013916,
+    "out_model": "./models/_cnn2_38_157.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:158*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:158*100]",
+    "timestep": 158,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_157.pt",
+    "train_losses": [
+        [1, 2.0785737433470786e-06],
+        [2, 0.018408071249723434],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.15370840376073663, 98.48484848484848]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17466363067626953, 98.42]]
+    ],
+    "training_time": 27.653353929519653,
+    "out_model": "./models/_cnn2_38_158.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:159*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:159*100]",
+    "timestep": 159,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_158.pt",
+    "train_losses": [
+        [1, 0.017028335481882095],
+        [2, 2.9802293965985882e-08],
+        [3, 1.0564820513536688e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.19886710862144175, 98.49435382685068]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16984570236206054, 98.54]]
+    ],
+    "training_time": 27.791628122329712,
+    "out_model": "./models/_cnn2_38_159.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:160*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:160*100]",
+    "timestep": 160,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_159.pt",
+    "train_losses": [
+        [1, 2.4959248889899754e-07],
+        [2, 2.4214376281861405e-08],
+        [3, 3.5017347954635625e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.17234081639316018, 98.56608478802993]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.13786619186401367, 98.55]]
+    ],
+    "training_time": 27.88649559020996,
+    "out_model": "./models/_cnn2_38_160.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:161*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:161*100]",
+    "timestep": 161,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_160.pt",
+    "train_losses": [
+        [1, 1.6204928954266506e-07],
+        [2, 0.001434321515262127],
+        [3, 4.656605767650035e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.21640605524717801, 98.45105328376704]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.14128484344482423, 98.54]]
+    ],
+    "training_time": 28.153155088424683,
+    "out_model": "./models/_cnn2_38_161.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:162*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:162*100]",
+    "timestep": 162,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_161.pt",
+    "train_losses": [
+        [1, 3.539023296639243e-08],
+        [2, 3.7252898543727042e-09],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.2238971822954751, 98.33743842364532]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1640618507385254, 98.51]]
+    ],
+    "training_time": 28.30496907234192,
+    "out_model": "./models/_cnn2_38_162.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:163*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:163*100]",
+    "timestep": 163,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_162.pt",
+    "train_losses": [
+        [1, 0.00039049232145771384],
+        [2, 1.8626440834168534e-08],
+        [3, 1.2665935855693533e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.17215229160490936, 98.531211750306]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1666929870605469, 98.54]]
+    ],
+    "training_time": 28.528292655944824,
+    "out_model": "./models/_cnn2_38_163.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:164*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:164*100]",
+    "timestep": 164,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_163.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 3.245123139095085e-07],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.18787325559741389, 98.661800486618]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1617772705078125, 98.52]]
+    ],
+    "training_time": 28.726048946380615,
+    "out_model": "./models/_cnn2_38_164.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:165*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:165*100]",
+    "timestep": 165,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_164.pt",
+    "train_losses": [
+        [1, 3.6634187381423544e-06],
+        [2, 8.381886118513648e-08],
+        [3, 2.7008212555301725e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.19082399896439503, 98.60943168077388]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16235472106933593, 98.51]]
+    ],
+    "training_time": 28.78158164024353,
+    "out_model": "./models/_cnn2_38_165.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:166*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:166*100]",
+    "timestep": 166,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_165.pt",
+    "train_losses": [
+        [1, 0.00042376990313641727],
+        [2, 1.4901154088420299e-08],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.19498846164116493, 98.61778846153847]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17836913833618165, 98.65]]
+    ],
+    "training_time": 29.041749238967896,
+    "out_model": "./models/_cnn2_38_166.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:167*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:167*100]",
+    "timestep": 167,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_166.pt",
+    "train_losses": [
+        [1, 2.1642606498062378e-06],
+        [2, 6.779881118745834e-07],
+        [3, 8.923247150960378e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.18233817224719048, 98.62604540023895]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1865160270690918, 98.52]]
+    ],
+    "training_time": 29.14683699607849,
+    "out_model": "./models/_cnn2_38_167.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:168*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:168*100]",
+    "timestep": 168,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_167.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 2.110305558744585e-06],
+        [3, 5.401665958970625e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.21861382165034424, 98.51543942992875]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1936230567932129, 98.49]]
+    ],
+    "training_time": 29.407134771347046,
+    "out_model": "./models/_cnn2_38_168.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:169*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:169*100]",
+    "timestep": 169,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_168.pt",
+    "train_losses": [
+        [1, 2.7939655922182283e-08],
+        [2, 0.0],
+        [3, 1.4015709894010797e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.1702203896983033, 98.7603305785124]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16830673217773437, 98.57]]
+    ],
+    "training_time": 29.525556325912476,
+    "out_model": "./models/_cnn2_38_169.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:170*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:170*100]",
+    "timestep": 170,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_169.pt",
+    "train_losses": [
+        [1, 0.0012553302804008126],
+        [2, 0.000333456409862265],
+        [3, 6.210208084667102e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.18304499773912028, 98.47417840375587]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.13906288604736328, 98.55]]
+    ],
+    "training_time": 29.672166347503662,
+    "out_model": "./models/_cnn2_38_170.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:171*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:171*100]",
+    "timestep": 171,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_170.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.18702687070973417, 98.5414235705951]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1486548095703125, 98.49]]
+    ],
+    "training_time": 29.93459415435791,
+    "out_model": "./models/_cnn2_38_171.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:172*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:172*100]",
+    "timestep": 172,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_171.pt",
+    "train_losses": [
+        [1, 0.11360898613929749],
+        [2, 0.0010176359210163355],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.17865811146605595, 98.72389791183295]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.15178976821899415, 98.57]]
+    ],
+    "training_time": 30.046305418014526,
+    "out_model": "./models/_cnn2_38_172.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:173*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:173*100]",
+    "timestep": 173,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_172.pt",
+    "train_losses": [
+        [1, 9.313223969797946e-09],
+        [2, 5.5879255000945705e-08],
+        [3, 5.867221943844925e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.1623284275006533, 98.73125720876585]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.15257549743652343, 98.45]]
+    ],
+    "training_time": 30.280154705047607,
+    "out_model": "./models/_cnn2_38_173.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:174*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:174*100]",
+    "timestep": 174,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_173.pt",
+    "train_losses": [
+        [1, 0.0016757508274167776],
+        [2, 4.0978164861371624e-08],
+        [3, 7.4505797087454084e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.18360865444218347, 98.68119266055047]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16963092269897462, 98.45]]
+    ],
+    "training_time": 30.413305282592773,
+    "out_model": "./models/_cnn2_38_174.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:175*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:175*100]",
+    "timestep": 175,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_174.pt",
+    "train_losses": [
+        [1, 2.570432116044685e-07],
+        [2, 0.001097058760933578],
+        [3, 4.126266503590159e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.17710520658416923, 98.57468643101483]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17815347595214845, 98.4]]
+    ],
+    "training_time": 30.66197967529297,
+    "out_model": "./models/_cnn2_38_175.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:176*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:176*100]",
+    "timestep": 176,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_175.pt",
+    "train_losses": [
+        [1, 1.8626383280206937e-07],
+        [2, 0.0060978783294558525],
+        [3, 1.1734626781390034e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.18860619300617382, 98.69614512471655]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.19316025390625, 98.44]]
+    ],
+    "training_time": 30.757423400878906,
+    "out_model": "./models/_cnn2_38_176.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:177*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:177*100]",
+    "timestep": 177,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_176.pt",
+    "train_losses": [
+        [1, 0.059736501425504684],
+        [2, 0.028382092714309692],
+        [3, 0.0004168111481703818]
+    ],
+    "test_loss/acc": [
+        [3, [0.13712235959299254, 98.47801578354002]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.19030377731323242, 98.35]]
+    ],
+    "training_time": 30.912988424301147,
+    "out_model": "./models/_cnn2_38_177.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:178*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:178*100]",
+    "timestep": 178,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_177.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.18187327449097226, 98.26233183856502]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.18666566314697267, 98.36]]
+    ],
+    "training_time": 31.174771547317505,
+    "out_model": "./models/_cnn2_38_178.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:179*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:179*100]",
+    "timestep": 179,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_178.pt",
+    "train_losses": [
+        [1, 3.311433829367161e-06],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.2131766039658018, 98.32775919732441]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2018546745300293, 98.42]]
+    ],
+    "training_time": 31.26394295692444,
+    "out_model": "./models/_cnn2_38_179.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:180*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:180*100]",
+    "timestep": 180,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_179.pt",
+    "train_losses": [
+        [1, 2.6077010772951326e-08],
+        [2, 0.0],
+        [3, 9.871993711385585e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.2068701234466485, 98.39246119733924]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.19325336380004882, 98.48]]
+    ],
+    "training_time": 31.49249815940857,
+    "out_model": "./models/_cnn2_38_180.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:181*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:181*100]",
+    "timestep": 181,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_180.pt",
+    "train_losses": [
+        [1, 1.9233009879826568e-05],
+        [2, 1.3671217402588809e-06],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.17964623229374826, 98.51157662624036]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1762672389984131, 98.46]]
+    ],
+    "training_time": 31.60944128036499,
+    "out_model": "./models/_cnn2_38_181.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:182*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:182*100]",
+    "timestep": 182,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_181.pt",
+    "train_losses": [
+        [1, 5.587934559514451e-09],
+        [2, 0.0],
+        [3, 1.1175868230850483e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.16994710972434596, 98.51973684210526]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17011417083740235, 98.49]]
+    ],
+    "training_time": 31.789132595062256,
+    "out_model": "./models/_cnn2_38_182.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:183*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:183*100]",
+    "timestep": 183,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_182.pt",
+    "train_losses": [
+        [1, 1.6763799237651256e-08],
+        [2, 7.450578820566989e-09],
+        [3, 1.0617054613248911e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.17414357176003825, 98.58233369683751]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17866844482421876, 98.48]]
+    ],
+    "training_time": 32.04073524475098,
+    "out_model": "./models/_cnn2_38_183.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:184*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:184*100]",
+    "timestep": 184,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_183.pt",
+    "train_losses": [
+        [1, 8.65998663357459e-05],
+        [2, 0.0],
+        [3, 2.909271643147804e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.15414369132151573, 98.7527114967462]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.16662487106323243, 98.47]]
+    ],
+    "training_time": 32.113505840301514,
+    "out_model": "./models/_cnn2_38_184.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:185*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:185*100]",
+    "timestep": 185,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_184.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.19711089725761866, 98.48975188781014]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.18101915283203124, 98.51]]
+    ],
+    "training_time": 32.41421961784363,
+    "out_model": "./models/_cnn2_38_185.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:186*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:186*100]",
+    "timestep": 186,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_185.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 1.0970780977004324e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.1950572427250285, 98.55150214592274]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.18132249069213868, 98.51]]
+    ],
+    "training_time": 32.467771768569946,
+    "out_model": "./models/_cnn2_38_186.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:187*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:187*100]",
+    "timestep": 187,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_186.pt",
+    "train_losses": [
+        [1, 7.469028560080915e-07],
+        [2, 1.3522218296202482e-06],
+        [3, 3.7252898543727042e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.18250266515839697, 98.45250800426895]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1793444580078125, 98.36]]
+    ],
+    "training_time": 32.60387349128723,
+    "out_model": "./models/_cnn2_38_187.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:188*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:188*100]",
+    "timestep": 188,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_187.pt",
+    "train_losses": [
+        [1, 0.03234206512570381],
+        [2, 0.0],
+        [3, 2.235172757991677e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.20327638921717422, 98.51380042462846]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.1832345153808594, 98.34]]
+    ],
+    "training_time": 32.82992219924927,
+    "out_model": "./models/_cnn2_38_188.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:189*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:189*100]",
+    "timestep": 189,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_188.pt",
+    "train_losses": [
+        [1, 7.450569228240056e-08],
+        [2, 1.8626450382086546e-09],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.19459493409492146, 98.46884899683211]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17606199035644532, 98.48]]
+    ],
+    "training_time": 32.998119592666626,
+    "out_model": "./models/_cnn2_38_189.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:190*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:190*100]",
+    "timestep": 190,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_189.pt",
+    "train_losses": [
+        [1, 9.313223969797946e-09],
+        [2, 5.587934559514451e-09],
+        [3, 1.9371428550130076e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.21014361822304606, 98.21428571428571]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.174536515045166, 98.37]]
+    ],
+    "training_time": 33.22278118133545,
+    "out_model": "./models/_cnn2_38_190.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:191*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:191*100]",
+    "timestep": 191,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_190.pt",
+    "train_losses": [
+        [1, 6.99827296557487e-06],
+        [2, 7.655283980056993e-07],
+        [3, 5.587935003603661e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.16939865957357791, 98.43260188087774]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17658141326904297, 98.5]]
+    ],
+    "training_time": 33.354971408843994,
+    "out_model": "./models/_cnn2_38_191.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:192*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:192*100]",
+    "timestep": 192,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_191.pt",
+    "train_losses": [
+        [1, 3.7252898543727042e-09],
+        [2, 1.3782968153464026e-06],
+        [3, 2.4214367400077208e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.16775224015519424, 98.64864864864865]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17173011016845702, 98.58]]
+    ],
+    "training_time": 33.47438287734985,
+    "out_model": "./models/_cnn2_38_192.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:193*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:193*100]",
+    "timestep": 193,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_192.pt",
+    "train_losses": [
+        [1, 5.587927631722778e-08],
+        [2, 0.00048414446064271033],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.1802430059202208, 98.70734229576009]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17458226318359374, 98.52]]
+    ],
+    "training_time": 33.70702362060547,
+    "out_model": "./models/_cnn2_38_193.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:194*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:194*100]",
+    "timestep": 194,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_193.pt",
+    "train_losses": [
+        [1, 1.415608039678773e-07],
+        [2, 1.247967418294138e-07],
+        [3, 2.9802309953197437e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.16218088095080216, 98.45679012345678]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17182624893188478, 98.43]]
+    ],
+    "training_time": 33.8187952041626,
+    "out_model": "./models/_cnn2_38_194.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:195*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:195*100]",
+    "timestep": 195,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_194.pt",
+    "train_losses": [
+        [1, 2.4678793124621734e-06],
+        [2, 0.0045994981192052364],
+        [3, 2.700812160583155e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.15154948864158857, 98.41351074718526]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.19130523529052734, 98.3]]
+    ],
+    "training_time": 34.07259202003479,
+    "out_model": "./models/_cnn2_38_195.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:196*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:196*100]",
+    "timestep": 196,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_195.pt",
+    "train_losses": [
+        [1, 4.3673207983374596e-06],
+        [2, 0.0],
+        [3, 5.149366643308895e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.18858889018445296, 98.57433808553971]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2147116729736328, 98.43]]
+    ],
+    "training_time": 34.19163966178894,
+    "out_model": "./models/_cnn2_38_196.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:197*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:197*100]",
+    "timestep": 197,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_196.pt",
+    "train_losses": [
+        [1, 0.28772854804992676],
+        [2, 0.008715861476957798],
+        [3, 7.450578820566989e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.19398908991944103, 98.58156028368795]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.21057587356567384, 98.47]]
+    ],
+    "training_time": 34.30710983276367,
+    "out_model": "./models/_cnn2_38_197.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:198*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:198*100]",
+    "timestep": 198,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_197.pt",
+    "train_losses": [
+        [1, 1.8626450382086546e-09],
+        [2, 0.0],
+        [3, 1.8626450382086546e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.22821699419329244, 98.63911290322581]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.22229718475341798, 98.52]]
+    ],
+    "training_time": 34.544350147247314,
+    "out_model": "./models/_cnn2_38_198.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:199*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:199*100]",
+    "timestep": 199,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_198.pt",
+    "train_losses": [
+        [1, 5.587935003603661e-09],
+        [2, 2.4214376281861405e-08],
+        [3, 1.1175867342672063e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.2177645148580507, 98.64593781344033]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.21082620620727538, 98.49]]
+    ],
+    "training_time": 34.71663522720337,
+    "out_model": "./models/_cnn2_38_199.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:200*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:200*100]",
+    "timestep": 200,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_199.pt",
+    "train_losses": [
+        [1, 4.284078869432051e-08],
+        [2, 0.18398624658584595],
+        [3, 2.6850590074900538e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.23507139164054702, 98.60279441117764]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.22383065872192384, 98.45]]
+    ],
+    "training_time": 34.9083297252655,
+    "out_model": "./models/_cnn2_38_200.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:201*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:201*100]",
+    "timestep": 201,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_200.pt",
+    "train_losses": [
+        [1, 0.006422935985028744],
+        [2, 6.891635280226183e-07],
+        [3, 0.00022419918968807906]
+    ],
+    "test_loss/acc": [
+        [3, [0.18514035031007087, 98.4111221449851]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.20206168670654298, 98.51]]
+    ],
+    "training_time": 35.034212589263916,
+    "out_model": "./models/_cnn2_38_201.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:202*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:202*100]",
+    "timestep": 202,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_201.pt",
+    "train_losses": [
+        [1, 0.0064044431783258915],
+        [2, 0.0],
+        [3, 7.450580152834618e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.1879313095756199, 98.46837944664031]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.21735574951171874, 98.52]]
+    ],
+    "training_time": 35.180906772613525,
+    "out_model": "./models/_cnn2_38_202.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:203*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:203*100]",
+    "timestep": 203,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_202.pt",
+    "train_losses": [
+        [1, 1.0803323391428421e-07],
+        [2, 3.7252898543727042e-09],
+        [3, 5.95198343944503e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.15780643884902096, 98.72173058013766]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.211298583984375, 98.47]]
+    ],
+    "training_time": 35.39976477622986,
+    "out_model": "./models/_cnn2_38_203.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:204*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:204*100]",
+    "timestep": 204,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_203.pt",
+    "train_losses": [
+        [1, 1.3689841580344364e-06],
+        [2, 0.0],
+        [3, 2.6077010772951326e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.1580091577220103, 98.67906066536203]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.21326653747558594, 98.48]]
+    ],
+    "training_time": 35.546715259552,
+    "out_model": "./models/_cnn2_38_204.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:205*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:205*100]",
+    "timestep": 205,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_204.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 4.425277438713238e-06],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.16283385918458457, 99.02629016553067]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.21988016510009767, 98.46]]
+    ],
+    "training_time": 35.795013427734375,
+    "out_model": "./models/_cnn2_38_205.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:206*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:206*100]",
+    "timestep": 206,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_205.pt",
+    "train_losses": [
+        [1, 1.3044270417594817e-05],
+        [2, 0.0],
+        [3, 1.1175867342672063e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.12150754398366781, 98.83720930232558]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.17993477783203124, 98.5]]
+    ],
+    "training_time": 35.902355670928955,
+    "out_model": "./models/_cnn2_38_206.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:207*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:207*100]",
+    "timestep": 207,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_206.pt",
+    "train_losses": [
+        [1, 5.084938266008976e-07],
+        [2, 1.7736168956616893e-05],
+        [3, 1.6763797461294416e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.16009332784231511, 98.98746383799421]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2193202377319336, 98.57]]
+    ],
+    "training_time": 36.14960050582886,
+    "out_model": "./models/_cnn2_38_207.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:208*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:208*100]",
+    "timestep": 208,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_207.pt",
+    "train_losses": [
+        [1, 3.352757715902044e-08],
+        [2, 2.6077019654735523e-08],
+        [3, 5.587934559514451e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.15985010086689252, 98.99232245681382]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2235228713989258, 98.58]]
+    ],
+    "training_time": 36.29316163063049,
+    "out_model": "./models/_cnn2_38_208.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:209*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:209*100]",
+    "timestep": 209,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_208.pt",
+    "train_losses": [
+        [1, 1.8626450382086546e-09],
+        [2, 1.8626450382086546e-09],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.1916426992917357, 98.90162368672398]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.24542889862060546, 98.32]]
+    ],
+    "training_time": 36.354042530059814,
+    "out_model": "./models/_cnn2_38_209.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:210*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:210*100]",
+    "timestep": 210,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_209.pt",
+    "train_losses": [
+        [1, 3.296847239653289e-07],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.17277085269315406, 98.62167300380229]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.20760794143676758, 98.43]]
+    ],
+    "training_time": 36.622913122177124,
+    "out_model": "./models/_cnn2_38_210.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:211*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:211*100]",
+    "timestep": 211,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_210.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 2.0596588001353666e-05],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.19666515934997386, 98.81740775780511]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.21993473739624023, 98.52]]
+    ],
+    "training_time": 36.76437306404114,
+    "out_model": "./models/_cnn2_38_211.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:212*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:212*100]",
+    "timestep": 212,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_211.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 9.313223081619526e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.18503630902134094, 98.91713747645952]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.22304586486816405, 98.54]]
+    ],
+    "training_time": 37.012829303741455,
+    "out_model": "./models/_cnn2_38_212.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:213*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:213*100]",
+    "timestep": 213,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_212.pt",
+    "train_losses": [
+        [1, 1.8626450382086546e-09],
+        [2, 1.1175867342672063e-08],
+        [3, 3.9115498395858594e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.19404499086131533, 98.87535145267104]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.23376868286132813, 98.53]]
+    ],
+    "training_time": 37.1199586391449,
+    "out_model": "./models/_cnn2_38_213.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:214*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:214*100]",
+    "timestep": 214,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_213.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.19350181586706816, 98.8339552238806]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.23366807327270508, 98.53]]
+    ],
+    "training_time": 37.35597276687622,
+    "out_model": "./models/_cnn2_38_214.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:215*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:215*100]",
+    "timestep": 215,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_214.pt",
+    "train_losses": [
+        [1, 3.7252898543727042e-09],
+        [2, 1.8626450382086546e-09],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.19392460191703662, 98.79294336118849]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2341536476135254, 98.52]]
+    ],
+    "training_time": 37.4727087020874,
+    "out_model": "./models/_cnn2_38_215.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:216*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:216*100]",
+    "timestep": 216,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_215.pt",
+    "train_losses": [
+        [1, 6.146724018663008e-08],
+        [2, 1.9557651853574498e-07],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.156569554052159, 98.8909426987061]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.22406622619628908, 98.43]]
+    ],
+    "training_time": 37.614550828933716,
+    "out_model": "./models/_cnn2_38_216.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:217*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:217*100]",
+    "timestep": 217,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_216.pt",
+    "train_losses": [
+        [1, 0.05638542026281357],
+        [2, 1.8626450382086546e-09],
+        [3, 1.8626450382086546e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.17286216216067601, 98.94204231830727]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.20692039642333984, 98.56]]
+    ],
+    "training_time": 37.871623039245605,
+    "out_model": "./models/_cnn2_38_217.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:218*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:218*100]",
+    "timestep": 218,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_217.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.19409606799537882, 98.67216117216117]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.21060139312744142, 98.5]]
+    ],
+    "training_time": 38.002800941467285,
+    "out_model": "./models/_cnn2_38_218.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:219*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:219*100]",
+    "timestep": 219,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_218.pt",
+    "train_losses": [
+        [1, 0.008492869324982166],
+        [2, 0.0],
+        [3, 1.303851338008144e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.1571854780018058, 98.90610756608933]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.19166775360107421, 98.62]]
+    ],
+    "training_time": 38.11304020881653,
+    "out_model": "./models/_cnn2_38_219.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:220*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:220*100]",
+    "timestep": 220,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_219.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 6.873024744891154e-07],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.16582339991242398, 98.86569872958258]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2053649642944336, 98.58]]
+    ],
+    "training_time": 38.362629413604736,
+    "out_model": "./models/_cnn2_38_220.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:221*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:221*100]",
+    "timestep": 221,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_220.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.17158420536037813, 98.78048780487805]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.20738575592041017, 98.58]]
+    ],
+    "training_time": 38.55406069755554,
+    "out_model": "./models/_cnn2_38_221.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:222*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:222*100]",
+    "timestep": 222,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_221.pt",
+    "train_losses": [
+        [1, 0.00019268548930995166],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.20472639584712846, 98.78597122302158]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.22833787689208984, 98.59]]
+    ],
+    "training_time": 38.67588782310486,
+    "out_model": "./models/_cnn2_38_222.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:223*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:223*100]",
+    "timestep": 223,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_222.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.20720015366160666, 98.79140555058191]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.22847106170654297, 98.63]]
+    ],
+    "training_time": 38.803897857666016,
+    "out_model": "./models/_cnn2_38_223.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:224*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:224*100]",
+    "timestep": 224,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_223.pt",
+    "train_losses": [
+        [1, 1.8626450382086546e-09],
+        [2, 4.097813999237587e-08],
+        [3, 4.469928171602078e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.18670114051424458, 98.88591800356507]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2338320571899414, 98.51]]
+    ],
+    "training_time": 38.98212552070618,
+    "out_model": "./models/_cnn2_38_224.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:225*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:225*100]",
+    "timestep": 225,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_224.pt",
+    "train_losses": [
+        [1, 4.0978164861371624e-08],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.1837854067288412, 98.9795918367347]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.23270713958740236, 98.49]]
+    ],
+    "training_time": 39.19062662124634,
+    "out_model": "./models/_cnn2_38_225.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:226*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:226*100]",
+    "timestep": 226,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_225.pt",
+    "train_losses": [
+        [1, 0.002207429613918066],
+        [2, 5.5879255000945705e-08],
+        [3, 1.6875761502888054e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.2277031349209088, 98.71908127208481]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2704589019775391, 98.41]]
+    ],
+    "training_time": 39.27661323547363,
+    "out_model": "./models/_cnn2_38_226.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:227*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:227*100]",
+    "timestep": 227,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_226.pt",
+    "train_losses": [
+        [1, 6.519189241771528e-07],
+        [2, 0.10293518006801605],
+        [3, 7.450562833355434e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.2346574553503944, 98.81266490765171]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2360080322265625, 98.37]]
+    ],
+    "training_time": 39.57164525985718,
+    "out_model": "./models/_cnn2_38_227.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:228*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:228*100]",
+    "timestep": 228,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_227.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.25780870701510933, 98.4676007005254]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.25322854385375976, 98.36]]
+    ],
+    "training_time": 39.74541878700256,
+    "out_model": "./models/_cnn2_38_228.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:229*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:229*100]",
+    "timestep": 229,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_228.pt",
+    "train_losses": [
+        [1, 2.9802293965985882e-08],
+        [2, 3.0600263016822282e-06],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.25413472109913515, 98.47428073234525]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2528781482696533, 98.4]]
+    ],
+    "training_time": 39.74513554573059,
+    "out_model": "./models/_cnn2_38_229.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:230*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:230*100]",
+    "timestep": 230,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_229.pt",
+    "train_losses": [
+        [1, 0.007435671053826809],
+        [2, 8.250187966041267e-05],
+        [3, 7.2049128903017845e-06]
+    ],
+    "test_loss/acc": [
+        [3, [0.2205346624056498, 98.87152777777777]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2568186943054199, 98.49]]
+    ],
+    "training_time": 40.056541442871094,
+    "out_model": "./models/_cnn2_38_230.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:231*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:231*100]",
+    "timestep": 231,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_230.pt",
+    "train_losses": [
+        [1, 2.9802293965985882e-08],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.2475297403624064, 98.70354364736387]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2685821243286133, 98.5]]
+    ],
+    "training_time": 40.183974504470825,
+    "out_model": "./models/_cnn2_38_231.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:232*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:232*100]",
+    "timestep": 232,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_231.pt",
+    "train_losses": [
+        [1, 0.0009168127435259521],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.22612448772752142, 98.8382099827883]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.24704603729248048, 98.42]]
+    ],
+    "training_time": 40.440043926239014,
+    "out_model": "./models/_cnn2_38_232.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:233*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:233*100]",
+    "timestep": 233,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_232.pt",
+    "train_losses": [
+        [1, 7.044798167044064e-06],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.26399114260636747, 98.80034275921166]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2876338851928711, 98.55]]
+    ],
+    "training_time": 40.50519061088562,
+    "out_model": "./models/_cnn2_38_233.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:234*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:234*100]",
+    "timestep": 234,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_233.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 7.450578820566989e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.27193851926627827, 98.59215017064847]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.26647579345703126, 98.57]]
+    ],
+    "training_time": 40.62228536605835,
+    "out_model": "./models/_cnn2_38_234.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:235*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:235*100]",
+    "timestep": 235,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_234.pt",
+    "train_losses": [
+        [1, 3.0719195365236374e-07],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.2986042359772636, 98.64061172472387]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.26505475616455076, 98.45]]
+    ],
+    "training_time": 40.94832468032837,
+    "out_model": "./models/_cnn2_38_235.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:236*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:236*100]",
+    "timestep": 236,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_235.pt",
+    "train_losses": [
+        [1, 1.6018670123685297e-07],
+        [2, 6.086059511289932e-05],
+        [3, 3.7252898543727042e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.2655205065022064, 98.9424703891709]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.24218473358154297, 98.52]]
+    ],
+    "training_time": 41.03165125846863,
+    "out_model": "./models/_cnn2_38_236.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:237*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:237*100]",
+    "timestep": 237,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_236.pt",
+    "train_losses": [
+        [1, 0.32948562502861023],
+        [2, 0.0],
+        [3, 2.7939652369468604e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.2523014065389786, 98.65206402695873]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2571474670410156, 98.43]]
+    ],
+    "training_time": 41.26528859138489,
+    "out_model": "./models/_cnn2_38_237.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:238*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:238*100]",
+    "timestep": 238,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_237.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 6.14671691323565e-08],
+        [3, 0.0234079509973526]
+    ],
+    "test_loss/acc": [
+        [3, [0.23872534220650693, 98.78355704697987]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.23896568145751954, 98.53]]
+    ],
+    "training_time": 41.358479261398315,
+    "out_model": "./models/_cnn2_38_238.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:239*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:239*100]",
+    "timestep": 239,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_238.pt",
+    "train_losses": [
+        [1, 8.568157738864102e-08],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.24009681962984447, 98.9139515455305]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.23642750930786133, 98.5]]
+    ],
+    "training_time": 41.61828851699829,
+    "out_model": "./models/_cnn2_38_239.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:240*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:240*100]",
+    "timestep": 240,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_239.pt",
+    "train_losses": [
+        [1, 7.450578820566989e-09],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.25452958724264696, 98.58569051580699]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2303434097290039, 98.57]]
+    ],
+    "training_time": 41.76145696640015,
+    "out_model": "./models/_cnn2_38_240.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:241*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:241*100]",
+    "timestep": 241,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_240.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.2666759348745275, 98.75724937862469]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2578655158996582, 98.49]]
+    ],
+    "training_time": 41.87260174751282,
+    "out_model": "./models/_cnn2_38_241.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:242*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:242*100]",
+    "timestep": 242,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_241.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 5.215404996761208e-08],
+        [3, 0.0032031009905040264]
+    ],
+    "test_loss/acc": [
+        [3, [0.2084561000169307, 98.96864686468646]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2471196517944336, 98.5]]
+    ],
+    "training_time": 42.22366642951965,
+    "out_model": "./models/_cnn2_38_242.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:243*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:243*100]",
+    "timestep": 243,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_242.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.2295197022186505, 98.89071487263763]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.27309867401123045, 98.51]]
+    ],
+    "training_time": 42.22921395301819,
+    "out_model": "./models/_cnn2_38_243.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:244*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:244*100]",
+    "timestep": 244,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_243.pt",
+    "train_losses": [
+        [1, 0.035416875034570694],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.18013874559667808, 98.8543371522095]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.23909638977050782, 98.62]]
+    ],
+    "training_time": 42.52014207839966,
+    "out_model": "./models/_cnn2_38_244.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:245*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:245*100]",
+    "timestep": 245,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_244.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.22175397305539107, 98.73675631621842]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.25366518707275393, 98.57]]
+    ],
+    "training_time": 42.57527732849121,
+    "out_model": "./models/_cnn2_38_245.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:246*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:246*100]",
+    "timestep": 246,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_245.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.005912309512495995],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.26573723632019836, 98.86363636363636]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.28490226287841797, 98.68]]
+    ],
+    "training_time": 42.661134243011475,
+    "out_model": "./models/_cnn2_38_246.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:247*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:247*100]",
+    "timestep": 247,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_246.pt",
+    "train_losses": [
+        [1, 0.4968181252479553],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.3661892489261365, 98.82780921584478]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.3113340270996094, 98.64]]
+    ],
+    "training_time": 42.88514256477356,
+    "out_model": "./models/_cnn2_38_247.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:248*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:248*100]",
+    "timestep": 248,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_247.pt",
+    "train_losses": [
+        [1, 2.607389797049109e-05],
+        [2, 0.0],
+        [3, 9.313223081619526e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.3722986783382397, 98.79227053140097]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2920854202270508, 98.58]]
+    ],
+    "training_time": 43.00375199317932,
+    "out_model": "./models/_cnn2_38_248.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:249*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:249*100]",
+    "timestep": 249,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_248.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.36785972491205454, 98.83720930232558]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2992121826171875, 98.61]]
+    ],
+    "training_time": 43.283888816833496,
+    "out_model": "./models/_cnn2_38_249.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:250*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:250*100]",
+    "timestep": 250,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_249.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.34571554561773427, 98.72204472843451]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.27835203704833983, 98.63]]
+    ],
+    "training_time": 43.32231569290161,
+    "out_model": "./models/_cnn2_38_250.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:251*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:251*100]",
+    "timestep": 251,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_250.pt",
+    "train_losses": [
+        [1, 9.47665685089305e-05],
+        [2, 7.450578820566989e-09],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.3914657629190595, 98.36913285600636]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2718321319580078, 98.69]]
+    ],
+    "training_time": 43.51028895378113,
+    "out_model": "./models/_cnn2_38_251.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:252*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:252*100]",
+    "timestep": 252,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_251.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.382132165972291, 98.45483359746434]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.27255123596191405, 98.67]]
+    ],
+    "training_time": 43.74724745750427,
+    "out_model": "./models/_cnn2_38_252.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:253*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:253*100]",
+    "timestep": 253,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_252.pt",
+    "train_losses": [
+        [1, 3.7252898543727042e-09],
+        [2, 0.0],
+        [3, 1.9930203620788234e-07]
+    ],
+    "test_loss/acc": [
+        [3, [0.36488080946780044, 98.53985793212313]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2979373947143555, 98.6]]
+    ],
+    "training_time": 43.86866807937622,
+    "out_model": "./models/_cnn2_38_253.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:254*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:254*100]",
+    "timestep": 254,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_253.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.41439302912298237, 98.42767295597484]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.35914994659423827, 98.51]]
+    ],
+    "training_time": 44.13103985786438,
+    "out_model": "./models/_cnn2_38_254.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:255*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:255*100]",
+    "timestep": 255,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_254.pt",
+    "train_losses": [
+        [1, 8.158172590810864e-07],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.44755118063117905, 98.35552075176194]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.3709378158569336, 98.67]]
+    ],
+    "training_time": 44.16042613983154,
+    "out_model": "./models/_cnn2_38_255.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:256*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:256*100]",
+    "timestep": 256,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_255.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 3.4086033906532975e-07],
+        [3, 6.51924452199637e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.32295827289306167, 98.63547758284601]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2785233276367188, 98.61]]
+    ],
+    "training_time": 44.41960954666138,
+    "out_model": "./models/_cnn2_38_256.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:257*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:257*100]",
+    "timestep": 257,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_256.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.29202438141248244, 98.79658385093168]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.29503380279541014, 98.63]]
+    ],
+    "training_time": 44.56290125846863,
+    "out_model": "./models/_cnn2_38_257.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:258*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:258*100]",
+    "timestep": 258,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_257.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 7.450578820566989e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.30911693713081634, 98.72439118670275]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2940456527709961, 98.69]]
+    ],
+    "training_time": 44.70592451095581,
+    "out_model": "./models/_cnn2_38_258.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:259*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:259*100]",
+    "timestep": 259,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_258.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.27927482082258287, 98.80677444187837]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.33732863006591796, 98.53]]
+    ],
+    "training_time": 44.93930768966675,
+    "out_model": "./models/_cnn2_38_259.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:260*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:260*100]",
+    "timestep": 260,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_259.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.36367238733036483, 98.8118052893829]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.3622007904052734, 98.6]]
+    ],
+    "training_time": 45.04765510559082,
+    "out_model": "./models/_cnn2_38_260.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:261*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:261*100]",
+    "timestep": 261,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_260.pt",
+    "train_losses": [
+        [1, 0.20577698945999146],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.33206808075650046, 98.62595419847328]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2888078338623047, 98.62]]
+    ],
+    "training_time": 45.21370720863342,
+    "out_model": "./models/_cnn2_38_261.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:262*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:262*100]",
+    "timestep": 262,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_261.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.33264888587989355, 98.70771569745344]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.29755618362426756, 98.65]]
+    ],
+    "training_time": 45.43229818344116,
+    "out_model": "./models/_cnn2_38_262.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:263*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:263*100]",
+    "timestep": 263,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_262.pt",
+    "train_losses": [
+        [1, 1.2582688214024529e-05],
+        [2, 3.352757715902044e-08],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.4253026368850835, 98.56169568508706]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.3000060363769531, 98.66]]
+    ],
+    "training_time": 45.51991152763367,
+    "out_model": "./models/_cnn2_38_263.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:264*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:264*100]",
+    "timestep": 264,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_263.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.3928622760909304, 98.52996607614021]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.27669269790649414, 98.68]]
+    ],
+    "training_time": 45.74238562583923,
+    "out_model": "./models/_cnn2_38_264.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:265*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:265*100]",
+    "timestep": 265,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_264.pt",
+    "train_losses": [
+        [1, 1.8626450382086546e-09],
+        [2, 0.0],
+        [3, 3.166493556250316e-08]
+    ],
+    "test_loss/acc": [
+        [3, [0.33069730306172873, 98.64864864864865]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2961123352050781, 98.71]]
+    ],
+    "training_time": 45.89386510848999,
+    "out_model": "./models/_cnn2_38_265.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:266*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:266*100]",
+    "timestep": 266,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_265.pt",
+    "train_losses": [
+        [1, 1.8626450382086546e-09],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.31880543361200353, 98.80373831775701]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.26182013702392576, 98.73]]
+    ],
+    "training_time": 46.05721378326416,
+    "out_model": "./models/_cnn2_38_266.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:267*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:267*100]",
+    "timestep": 267,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_266.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.34354540951999374, 98.65971705137751]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2596267578125, 98.66]]
+    ],
+    "training_time": 46.28905892372131,
+    "out_model": "./models/_cnn2_38_267.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:268*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:268*100]",
+    "timestep": 268,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_267.pt",
+    "train_losses": [
+        [1, 1.4211336747393943e-06],
+        [2, 3.7252898543727042e-09],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.30229933826756294, 98.9247311827957]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2860253921508789, 98.63]]
+    ],
+    "training_time": 46.461727142333984,
+    "out_model": "./models/_cnn2_38_268.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:269*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:269*100]",
+    "timestep": 269,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_268.pt",
+    "train_losses": [
+        [1, 1.3038510715546181e-08],
+        [2, 0.0],
+        [3, 5.641872849082574e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.23697470773446155, 99.0768094534712]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.23160423965454102, 98.64]]
+    ],
+    "training_time": 46.58475971221924,
+    "out_model": "./models/_cnn2_38_269.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:270*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:270*100]",
+    "timestep": 270,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_269.pt",
+    "train_losses": [
+        [1, 2.4214367400077208e-08],
+        [2, 0.0],
+        [3, 2.5979075871873647e-05]
+    ],
+    "test_loss/acc": [
+        [3, [0.3252718533694459, 98.93343140860611]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2800561782836914, 98.67]]
+    ],
+    "training_time": 46.74663019180298,
+    "out_model": "./models/_cnn2_38_270.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:271*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:271*100]",
+    "timestep": 271,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_270.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.3289387489849831, 98.82783882783883]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.27804345092773436, 98.72]]
+    ],
+    "training_time": 46.96812295913696,
+    "out_model": "./models/_cnn2_38_271.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:272*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:272*100]",
+    "timestep": 272,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_271.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 7.450578820566989e-09],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.3029883912513396, 98.79605983217803]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2666517532348633, 98.68]]
+    ],
+    "training_time": 47.13876438140869,
+    "out_model": "./models/_cnn2_38_272.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:273*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:273*100]",
+    "timestep": 273,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_272.pt",
+    "train_losses": [
+        [1, 0.09133530408143997],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.382181866224422, 98.72819767441861]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.29438232269287107, 98.79]]
+    ],
+    "training_time": 47.24192810058594,
+    "out_model": "./models/_cnn2_38_273.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:274*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:274*100]",
+    "timestep": 274,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_273.pt",
+    "train_losses": [
+        [1, 1.1380346904843464e-06],
+        [2, 0.0],
+        [3, 1.8626450382086546e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.2902757007489807, 98.84183858125226]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.27928829498291013, 98.79]]
+    ],
+    "training_time": 47.39224672317505,
+    "out_model": "./models/_cnn2_38_274.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:275*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:275*100]",
+    "timestep": 275,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_274.pt",
+    "train_losses": [
+        [1, 1.4901159417490817e-08],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.34031372510364094, 98.66618601297765]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2885329391479492, 98.68]]
+    ],
+    "training_time": 47.6401572227478,
+    "out_model": "./models/_cnn2_38_275.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:276*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:276*100]",
+    "timestep": 276,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_275.pt",
+    "train_losses": [
+        [1, 0.03570741042494774],
+        [2, 0.0],
+        [3, 9.313223081619526e-09]
+    ],
+    "test_loss/acc": [
+        [3, [0.35150650544911355, 98.49192100538599]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.27723154754638674, 98.67]]
+    ],
+    "training_time": 47.73974537849426,
+    "out_model": "./models/_cnn2_38_276.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:277*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:277*100]",
+    "timestep": 277,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_276.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.32796216318024074, 98.81974248927038]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.28555977935791016, 98.51]]
+    ],
+    "training_time": 47.996376514434814,
+    "out_model": "./models/_cnn2_38_277.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:278*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:278*100]",
+    "timestep": 278,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_277.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.3634412634359971, 98.68186676166727]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.27614095764160157, 98.62]]
+    ],
+    "training_time": 48.13452458381653,
+    "out_model": "./models/_cnn2_38_278.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:279*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:279*100]",
+    "timestep": 279,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_278.pt",
+    "train_losses": [
+        [1, 1.1920474207727239e-06],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.3949942551579689, 98.65152590489708]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.31392457427978515, 98.69]]
+    ],
+    "training_time": 48.201658725738525,
+    "out_model": "./models/_cnn2_38_279.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:280*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:280*100]",
+    "timestep": 280,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_279.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.3679251321932165, 98.62142099681867]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.3060100311279297, 98.61]]
+    ],
+    "training_time": 48.38838171958923,
+    "out_model": "./models/_cnn2_38_280.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:281*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:281*100]",
+    "timestep": 281,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_280.pt",
+    "train_losses": [
+        [1, 0.11316236853599548],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.299781133087588, 98.83802816901408]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.29147320709228514, 98.6]]
+    ],
+    "training_time": 48.543479442596436,
+    "out_model": "./models/_cnn2_38_281.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:282*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:282*100]",
+    "timestep": 282,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_281.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.3367943685124189, 98.66713433882848]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.2543780334472656, 98.76]]
+    ],
+    "training_time": 48.872270822525024,
+    "out_model": "./models/_cnn2_38_282.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:283*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:283*100]",
+    "timestep": 283,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_282.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 1.8626450382086546e-09],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.3746195752499072, 98.70719776380153]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.300901953125, 98.79]]
+    ],
+    "training_time": 48.872735023498535,
+    "out_model": "./models/_cnn2_38_283.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:284*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:284*100]",
+    "timestep": 284,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_283.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.3657083322144617, 98.85137486947441]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.3261819305419922, 98.74]]
+    ],
+    "training_time": 48.995705127716064,
+    "out_model": "./models/_cnn2_38_284.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:285*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:285*100]",
+    "timestep": 285,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_284.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.3689859948442647, 98.7864077669903]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.3096001953125, 98.72]]
+    ],
+    "training_time": 49.326672077178955,
+    "out_model": "./models/_cnn2_38_285.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:286*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:286*100]",
+    "timestep": 286,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_285.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.3853899123961032, 98.860103626943]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.3650526290893555, 98.48]]
+    ],
+    "training_time": 49.39726948738098,
+    "out_model": "./models/_cnn2_38_286.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:287*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:287*100]",
+    "timestep": 287,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_286.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 1.8626450382086546e-09],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.37878341832328316, 98.96765313145217]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.30928182373046875, 98.7]]
+    ],
+    "training_time": 49.62399339675903,
+    "out_model": "./models/_cnn2_38_287.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:288*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:288*100]",
+    "timestep": 288,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_287.pt",
+    "train_losses": [
+        [1, 7.450578820566989e-09],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.38155347989526645, 98.80013712718547]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.33282755279541015, 98.53]]
+    ],
+    "training_time": 49.69760012626648,
+    "out_model": "./models/_cnn2_38_288.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:289*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:289*100]",
+    "timestep": 289,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_288.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 1.8626450382086546e-09],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.3176696287478254, 99.00956284153006]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.3239336196899414, 98.62]]
+    ],
+    "training_time": 49.86325478553772,
+    "out_model": "./models/_cnn2_38_289.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:290*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:290*100]",
+    "timestep": 290,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_289.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 8.381880434171762e-08],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.33200455360892844, 98.84314392650562]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.32895787200927734, 98.77]]
+    ],
+    "training_time": 50.09835696220398,
+    "out_model": "./models/_cnn2_38_290.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:291*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:291*100]",
+    "timestep": 291,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_290.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.3202189041396319, 98.91525423728814]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.32605933990478514, 98.68]]
+    ],
+    "training_time": 50.1660680770874,
+    "out_model": "./models/_cnn2_38_291.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:292*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:292*100]",
+    "timestep": 292,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_291.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.42858681619187455, 98.75042215467748]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.3811295684814453, 98.64]]
+    ],
+    "training_time": 50.29045009613037,
+    "out_model": "./models/_cnn2_38_292.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:293*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:293*100]",
+    "timestep": 293,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_292.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.45739101240484104, 98.68775235531629]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.4037156234741211, 98.64]]
+    ],
+    "training_time": 50.516276359558105,
+    "out_model": "./models/_cnn2_38_293.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:294*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:294*100]",
+    "timestep": 294,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_293.pt",
+    "train_losses": [
+        [1, 0.00020368416153360158],
+        [2, 0.002925028558820486],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.37281255565391386, 98.72611464968153]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.368723161315918, 98.62]]
+    ],
+    "training_time": 50.64059400558472,
+    "out_model": "./models/_cnn2_38_294.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:295*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:295*100]",
+    "timestep": 295,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_294.pt",
+    "train_losses": [
+        [1, 3.7252898543727042e-09],
+        [2, 0.0026484618429094553],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.4700088755799359, 98.63059452237809]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.4152814544677734, 98.7]]
+    ],
+    "training_time": 50.88452959060669,
+    "out_model": "./models/_cnn2_38_295.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:296*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:296*100]",
+    "timestep": 296,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_295.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 7.152393664000556e-07],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.40795350035097755, 98.86855241264558]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.39429282836914065, 98.76]]
+    ],
+    "training_time": 51.01574492454529,
+    "out_model": "./models/_cnn2_38_296.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:297*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:297*100]",
+    "timestep": 297,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_296.pt",
+    "train_losses": [
+        [1, 0.0],
+        [2, 0.0],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.3927213431037073, 99.0053050397878]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.4339413345336914, 98.7]]
+    ],
+    "training_time": 51.1423704624176,
+    "out_model": "./models/_cnn2_38_297.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:298*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:298*100]",
+    "timestep": 298,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_297.pt",
+    "train_losses": [
+        [1, 8.850576705299318e-05],
+        [2, 0.03224332258105278],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.5584502256385241, 98.81070366699703]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.5248680480957031, 98.7]]
+    ],
+    "training_time": 51.374815940856934,
+    "out_model": "./models/_cnn2_38_298.pt"
+}, {
+    "architecture": "cnn2",
+    "data_train": "9/10 of X_0:t=MNIST_Train[0:299*100]",
+    "data_test": "1/10 of X_0:t=MNIST_Train[0:299*100]",
+    "timestep": 299,
+    "stepsize": 100,
+    "base_model": "./models/_cnn2_38_298.pt",
+    "train_losses": [
+        [1, 0.0001614791835891083],
+        [2, 4.394871211843565e-05],
+        [3, 0.0]
+    ],
+    "test_loss/acc": [
+        [3, [0.43104278986355127, 98.9137590520079]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.4694004684448242, 98.63]]
+    ],
+    "training_time": 51.48169946670532,
+    "out_model": "./models/_cnn2_38_299.pt"
+}

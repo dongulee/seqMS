@@ -1,0 +1,2141 @@
+{
+    "exp_id": 26
+}, {
+    "architecture": "fcnn1",
+    "timestep": 0,
+    "pre_train_size": 100,
+    "mnist_test": false,
+    "split_ratio": 0.9,
+    "model_arch": "fcnn1",
+    "epochs": 3,
+    "train_losses": [
+        [1, 2.3070268630981445],
+        [2, 1.597373366355896],
+        [3, 0.8290343284606934]
+    ],
+    "test_loss/acc": [
+        [3, [0.4357579231262207, 100.0]]
+    ],
+    "training_time": 1.4209272861480713,
+    "out_model": "./models/_fcnn1_26_0.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 72,
+    "data_test": 71,
+    "timestep": 1,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_0.pt",
+    "train_losses": [
+        [1, 0.600166916847229],
+        [2, 0.5638136267662048],
+        [3, 0.45015403628349304]
+    ],
+    "test_loss/acc": [
+        [3, [0.17563581466674805, 100.0]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.9586396179199219, 72.23]]
+    ],
+    "training_time": 0.19842934608459473,
+    "out_model": "./models/_fcnn1_26_1.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 73,
+    "data_test": 72,
+    "timestep": 2,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_1.pt",
+    "train_losses": [
+        [1, 0.6699531674385071],
+        [2, 0.4677736759185791],
+        [3, 0.6504854559898376]
+    ],
+    "test_loss/acc": [
+        [3, [0.2985388437906901, 96.66666666666667]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.8539056030273438, 74.47]]
+    ],
+    "training_time": 0.2342972755432129,
+    "out_model": "./models/_fcnn1_26_2.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 74,
+    "data_test": 73,
+    "timestep": 3,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_2.pt",
+    "train_losses": [
+        [1, 0.5045515298843384],
+        [2, 0.4947320222854614],
+        [3, 0.47179585695266724]
+    ],
+    "test_loss/acc": [
+        [3, [0.3872226291232639, 93.70370370370371]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7994810363769531, 75.78]]
+    ],
+    "training_time": 0.27385997772216797,
+    "out_model": "./models/_fcnn1_26_3.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 75,
+    "data_test": 74,
+    "timestep": 4,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_3.pt",
+    "train_losses": [
+        [1, 0.6137949824333191],
+        [2, 0.5318880081176758],
+        [3, 0.4392821192741394]
+    ],
+    "test_loss/acc": [
+        [3, [0.41324598524305556, 90.83333333333333]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.784385498046875, 76.04]]
+    ],
+    "training_time": 0.31192755699157715,
+    "out_model": "./models/_fcnn1_26_4.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 76,
+    "data_test": 75,
+    "timestep": 5,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_4.pt",
+    "train_losses": [
+        [1, 0.36321941018104553],
+        [2, 0.6301512122154236],
+        [3, 0.6664791703224182]
+    ],
+    "test_loss/acc": [
+        [3, [0.43890733506944446, 90.0]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7754906188964844, 76.21]]
+    ],
+    "training_time": 0.34944725036621094,
+    "out_model": "./models/_fcnn1_26_5.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 77,
+    "data_test": 76,
+    "timestep": 6,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_5.pt",
+    "train_losses": [
+        [1, 0.4447910189628601],
+        [2, 0.671970784664154],
+        [3, 0.5569278597831726]
+    ],
+    "test_loss/acc": [
+        [3, [0.5144686663592303, 87.96296296296296]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7714170654296875, 76.28]]
+    ],
+    "training_time": 0.38900160789489746,
+    "out_model": "./models/_fcnn1_26_6.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 78,
+    "data_test": 77,
+    "timestep": 7,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_6.pt",
+    "train_losses": [
+        [1, 0.6122220158576965],
+        [2, 0.5223546624183655],
+        [3, 0.48160791397094727]
+    ],
+    "test_loss/acc": [
+        [3, [0.5704564654637897, 86.03174603174604]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7697426330566406, 76.34]]
+    ],
+    "training_time": 0.4262964725494385,
+    "out_model": "./models/_fcnn1_26_7.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 79,
+    "data_test": 78,
+    "timestep": 8,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_7.pt",
+    "train_losses": [
+        [1, 0.6166500449180603],
+        [2, 0.6770660877227783],
+        [3, 0.5987382531166077]
+    ],
+    "test_loss/acc": [
+        [3, [0.60694457160102, 84.58333333333333]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7690214416503907, 76.37]]
+    ],
+    "training_time": 0.46323442459106445,
+    "out_model": "./models/_fcnn1_26_8.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 80,
+    "data_test": 79,
+    "timestep": 9,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_8.pt",
+    "train_losses": [
+        [1, 0.708469569683075],
+        [2, 0.8140849471092224],
+        [3, 0.4574214816093445]
+    ],
+    "test_loss/acc": [
+        [3, [0.6239651526933835, 84.07407407407408]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7687575012207031, 76.35]]
+    ],
+    "training_time": 0.49870896339416504,
+    "out_model": "./models/_fcnn1_26_9.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 81,
+    "data_test": 80,
+    "timestep": 10,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_9.pt",
+    "train_losses": [
+        [1, 0.7361629605293274],
+        [2, 0.5904601216316223],
+        [3, 0.7429499626159668]
+    ],
+    "test_loss/acc": [
+        [3, [0.6300490993923611, 83.66666666666667]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686609558105468, 76.36]]
+    ],
+    "training_time": 0.5403845310211182,
+    "out_model": "./models/_fcnn1_26_10.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 82,
+    "data_test": 81,
+    "timestep": 11,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_10.pt",
+    "train_losses": [
+        [1, 0.6590734124183655],
+        [2, 0.638145923614502],
+        [3, 0.5678418874740601]
+    ],
+    "test_loss/acc": [
+        [3, [0.6489394679214016, 82.82828282828282]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686249755859375, 76.36]]
+    ],
+    "training_time": 0.5796856880187988,
+    "out_model": "./models/_fcnn1_26_11.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 83,
+    "data_test": 82,
+    "timestep": 12,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_11.pt",
+    "train_losses": [
+        [1, 0.8429206609725952],
+        [2, 0.7087981700897217],
+        [3, 0.6540517210960388]
+    ],
+    "test_loss/acc": [
+        [3, [0.673499079103823, 81.38888888888889]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686115295410156, 76.36]]
+    ],
+    "training_time": 0.6102321147918701,
+    "out_model": "./models/_fcnn1_26_12.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 84,
+    "data_test": 83,
+    "timestep": 13,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_12.pt",
+    "train_losses": [
+        [1, 0.5252764821052551],
+        [2, 0.7732948660850525],
+        [3, 0.78220134973526]
+    ],
+    "test_loss/acc": [
+        [3, [0.6873176770332532, 81.19658119658119]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.768606396484375, 76.36]]
+    ],
+    "training_time": 0.6467816829681396,
+    "out_model": "./models/_fcnn1_26_13.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 85,
+    "data_test": 84,
+    "timestep": 14,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_13.pt",
+    "train_losses": [
+        [1, 0.6257860660552979],
+        [2, 0.7055058479309082],
+        [3, 0.7169540524482727]
+    ],
+    "test_loss/acc": [
+        [3, [0.6905077495272197, 81.11111111111111]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686052734375, 76.36]]
+    ],
+    "training_time": 0.6815102100372314,
+    "out_model": "./models/_fcnn1_26_14.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 86,
+    "data_test": 85,
+    "timestep": 15,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_14.pt",
+    "train_losses": [
+        [1, 0.7464190721511841],
+        [2, 0.6868171691894531],
+        [3, 0.6113055944442749]
+    ],
+    "test_loss/acc": [
+        [3, [0.6930850558810764, 80.88888888888889]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051452636719, 76.36]]
+    ],
+    "training_time": 0.7188544273376465,
+    "out_model": "./models/_fcnn1_26_15.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 87,
+    "data_test": 86,
+    "timestep": 16,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_15.pt",
+    "train_losses": [
+        [1, 0.632996141910553],
+        [2, 0.8527159690856934],
+        [3, 0.6468724012374878]
+    ],
+    "test_loss/acc": [
+        [3, [0.7045537524753147, 80.48611111111111]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051513671875, 76.36]]
+    ],
+    "training_time": 0.7537736892700195,
+    "out_model": "./models/_fcnn1_26_16.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 88,
+    "data_test": 87,
+    "timestep": 17,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_16.pt",
+    "train_losses": [
+        [1, 0.7114267349243164],
+        [2, 0.5640559196472168],
+        [3, 0.6414302587509155]
+    ],
+    "test_loss/acc": [
+        [3, [0.7082046807981005, 80.3921568627451]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051025390624, 76.36]]
+    ],
+    "training_time": 0.8011388778686523,
+    "out_model": "./models/_fcnn1_26_17.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 89,
+    "data_test": 88,
+    "timestep": 18,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_17.pt",
+    "train_losses": [
+        [1, 0.7048023343086243],
+        [2, 0.8219804763793945],
+        [3, 0.8676866292953491]
+    ],
+    "test_loss/acc": [
+        [3, [0.7180705694504727, 79.75308641975309]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051147460937, 76.36]]
+    ],
+    "training_time": 0.8326950073242188,
+    "out_model": "./models/_fcnn1_26_18.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 90,
+    "data_test": 89,
+    "timestep": 19,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_18.pt",
+    "train_losses": [
+        [1, 0.5559314489364624],
+        [2, 0.8183957934379578],
+        [3, 0.5445111989974976]
+    ],
+    "test_loss/acc": [
+        [3, [0.7144748977750366, 80.05847953216374]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051330566406, 76.36]]
+    ],
+    "training_time": 0.8832416534423828,
+    "out_model": "./models/_fcnn1_26_19.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 91,
+    "data_test": 90,
+    "timestep": 20,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_19.pt",
+    "train_losses": [
+        [1, 0.797447144985199],
+        [2, 0.657854437828064],
+        [3, 0.5492733716964722]
+    ],
+    "test_loss/acc": [
+        [3, [0.7078817070855035, 80.16666666666667]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686050964355469, 76.36]]
+    ],
+    "training_time": 0.9158492088317871,
+    "out_model": "./models/_fcnn1_26_20.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 92,
+    "data_test": 91,
+    "timestep": 21,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_20.pt",
+    "train_losses": [
+        [1, 0.7828871011734009],
+        [2, 0.7243759632110596],
+        [3, 0.7397571206092834]
+    ],
+    "test_loss/acc": [
+        [3, [0.7067218114459325, 80.26455026455027]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051086425781, 76.36]]
+    ],
+    "training_time": 0.9390754699707031,
+    "out_model": "./models/_fcnn1_26_21.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 93,
+    "data_test": 92,
+    "timestep": 22,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_21.pt",
+    "train_losses": [
+        [1, 0.7465286254882812],
+        [2, 0.6334614753723145],
+        [3, 0.972638726234436]
+    ],
+    "test_loss/acc": [
+        [3, [0.7088187477805398, 80.15151515151516]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051208496094, 76.36]]
+    ],
+    "training_time": 0.9986557960510254,
+    "out_model": "./models/_fcnn1_26_22.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 94,
+    "data_test": 93,
+    "timestep": 23,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_22.pt",
+    "train_losses": [
+        [1, 0.5498673915863037],
+        [2, 0.6493470072746277],
+        [3, 0.6936458349227905]
+    ],
+    "test_loss/acc": [
+        [3, [0.7118609294799215, 79.90338164251207]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051086425781, 76.36]]
+    ],
+    "training_time": 1.031440019607544,
+    "out_model": "./models/_fcnn1_26_23.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 95,
+    "data_test": 94,
+    "timestep": 24,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_23.pt",
+    "train_losses": [
+        [1, 0.726420521736145],
+        [2, 0.7215452790260315],
+        [3, 0.6760812997817993]
+    ],
+    "test_loss/acc": [
+        [3, [0.7056987939057526, 79.95370370370371]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686050903320313, 76.36]]
+    ],
+    "training_time": 1.059290885925293,
+    "out_model": "./models/_fcnn1_26_24.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 96,
+    "data_test": 95,
+    "timestep": 25,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_24.pt",
+    "train_losses": [
+        [1, 0.7315783500671387],
+        [2, 0.5993841290473938],
+        [3, 0.8212887644767761]
+    ],
+    "test_loss/acc": [
+        [3, [0.7024992268880208, 80.04444444444445]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051330566406, 76.36]]
+    ],
+    "training_time": 1.1090095043182373,
+    "out_model": "./models/_fcnn1_26_25.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 97,
+    "data_test": 96,
+    "timestep": 26,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_25.pt",
+    "train_losses": [
+        [1, 0.6856270432472229],
+        [2, 0.685353696346283],
+        [3, 0.8188944458961487]
+    ],
+    "test_loss/acc": [
+        [3, [0.704451888646835, 79.82905982905983]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051574707031, 76.36]]
+    ],
+    "training_time": 1.1348156929016113,
+    "out_model": "./models/_fcnn1_26_26.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 98,
+    "data_test": 97,
+    "timestep": 27,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_26.pt",
+    "train_losses": [
+        [1, 0.6657739877700806],
+        [2, 0.9065492749214172],
+        [3, 0.8511158227920532]
+    ],
+    "test_loss/acc": [
+        [3, [0.7093622027110661, 79.67078189300412]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051025390624, 76.36]]
+    ],
+    "training_time": 1.1709001064300537,
+    "out_model": "./models/_fcnn1_26_27.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 99,
+    "data_test": 98,
+    "timestep": 28,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_27.pt",
+    "train_losses": [
+        [1, 0.78950035572052],
+        [2, 0.7353774905204773],
+        [3, 0.6252895593643188]
+    ],
+    "test_loss/acc": [
+        [3, [0.7042782738095238, 79.84126984126983]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.768605126953125, 76.36]]
+    ],
+    "training_time": 1.2173664569854736,
+    "out_model": "./models/_fcnn1_26_28.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 100,
+    "data_test": 99,
+    "timestep": 29,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_28.pt",
+    "train_losses": [
+        [1, 0.8077146410942078],
+        [2, 0.5573691725730896],
+        [3, 0.6697232127189636]
+    ],
+    "test_loss/acc": [
+        [3, [0.7044519884832974, 79.80842911877394]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051086425781, 76.36]]
+    ],
+    "training_time": 1.2397546768188477,
+    "out_model": "./models/_fcnn1_26_29.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 101,
+    "data_test": 100,
+    "timestep": 30,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_29.pt",
+    "train_losses": [
+        [1, 0.5646559596061707],
+        [2, 0.7782055735588074],
+        [3, 0.6516918540000916]
+    ],
+    "test_loss/acc": [
+        [3, [0.7034159794560185, 79.85185185185185]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051086425781, 76.36]]
+    ],
+    "training_time": 1.278456211090088,
+    "out_model": "./models/_fcnn1_26_30.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 102,
+    "data_test": 101,
+    "timestep": 31,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_30.pt",
+    "train_losses": [
+        [1, 0.762315034866333],
+        [2, 0.8283029794692993],
+        [3, 0.6363430023193359]
+    ],
+    "test_loss/acc": [
+        [3, [0.7047669550851254, 79.71326164874552]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.768605078125, 76.36]]
+    ],
+    "training_time": 1.3334808349609375,
+    "out_model": "./models/_fcnn1_26_31.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 103,
+    "data_test": 102,
+    "timestep": 32,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_31.pt",
+    "train_losses": [
+        [1, 0.6956160068511963],
+        [2, 0.9096269607543945],
+        [3, 0.6252231597900391]
+    ],
+    "test_loss/acc": [
+        [3, [0.7065722359551324, 79.47916666666667]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051208496094, 76.36]]
+    ],
+    "training_time": 1.356462001800537,
+    "out_model": "./models/_fcnn1_26_32.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 104,
+    "data_test": 103,
+    "timestep": 33,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_32.pt",
+    "train_losses": [
+        [1, 0.7068983912467957],
+        [2, 0.792558491230011],
+        [3, 0.7345600724220276]
+    ],
+    "test_loss/acc": [
+        [3, [0.7089626530605535, 79.39393939393939]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051147460937, 76.36]]
+    ],
+    "training_time": 1.3846404552459717,
+    "out_model": "./models/_fcnn1_26_33.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 105,
+    "data_test": 104,
+    "timestep": 34,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_33.pt",
+    "train_losses": [
+        [1, 0.5550360679626465],
+        [2, 0.8995305299758911],
+        [3, 0.8303734660148621]
+    ],
+    "test_loss/acc": [
+        [3, [0.7096575419108073, 79.44444444444444]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686050903320313, 76.36]]
+    ],
+    "training_time": 1.4615767002105713,
+    "out_model": "./models/_fcnn1_26_34.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 106,
+    "data_test": 105,
+    "timestep": 35,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_34.pt",
+    "train_losses": [
+        [1, 0.5587691068649292],
+        [2, 0.7331117391586304],
+        [3, 0.8565840721130371]
+    ],
+    "test_loss/acc": [
+        [3, [0.7127668737986731, 79.42857142857143]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051513671875, 76.36]]
+    ],
+    "training_time": 1.491004467010498,
+    "out_model": "./models/_fcnn1_26_35.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 107,
+    "data_test": 106,
+    "timestep": 36,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_35.pt",
+    "train_losses": [
+        [1, 0.8837420344352722],
+        [2, 0.7006568312644958],
+        [3, 0.7594967484474182]
+    ],
+    "test_loss/acc": [
+        [3, [0.7144881731198158, 79.22839506172839]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051147460937, 76.36]]
+    ],
+    "training_time": 1.5123426914215088,
+    "out_model": "./models/_fcnn1_26_36.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 108,
+    "data_test": 107,
+    "timestep": 37,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_36.pt",
+    "train_losses": [
+        [1, 0.8919151425361633],
+        [2, 0.8349502682685852],
+        [3, 0.7840774655342102]
+    ],
+    "test_loss/acc": [
+        [3, [0.7138288343274916, 79.27927927927928]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051025390624, 76.36]]
+    ],
+    "training_time": 1.5444884300231934,
+    "out_model": "./models/_fcnn1_26_37.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 109,
+    "data_test": 108,
+    "timestep": 38,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_37.pt",
+    "train_losses": [
+        [1, 0.6154674887657166],
+        [2, 0.6749445796012878],
+        [3, 0.47484856843948364]
+    ],
+    "test_loss/acc": [
+        [3, [0.7163762410481771, 79.12280701754386]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686050842285156, 76.36]]
+    ],
+    "training_time": 1.5693044662475586,
+    "out_model": "./models/_fcnn1_26_38.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 110,
+    "data_test": 109,
+    "timestep": 39,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_38.pt",
+    "train_losses": [
+        [1, 0.6673649549484253],
+        [2, 0.6998109221458435],
+        [3, 0.5771949291229248]
+    ],
+    "test_loss/acc": [
+        [3, [0.7163463799022881, 79.14529914529915]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051147460937, 76.36]]
+    ],
+    "training_time": 1.6443519592285156,
+    "out_model": "./models/_fcnn1_26_39.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 111,
+    "data_test": 110,
+    "timestep": 40,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_39.pt",
+    "train_losses": [
+        [1, 0.8526558876037598],
+        [2, 0.7894327640533447],
+        [3, 0.9062179923057556]
+    ],
+    "test_loss/acc": [
+        [3, [0.7190508609347873, 79.13888888888889]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051330566406, 76.36]]
+    ],
+    "training_time": 1.6555263996124268,
+    "out_model": "./models/_fcnn1_26_40.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 112,
+    "data_test": 111,
+    "timestep": 41,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_40.pt",
+    "train_losses": [
+        [1, 0.8442114591598511],
+        [2, 0.6915973424911499],
+        [3, 0.44164812564849854]
+    ],
+    "test_loss/acc": [
+        [3, [0.7171713397431826, 79.21409214092141]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051330566406, 76.36]]
+    ],
+    "training_time": 1.7054767608642578,
+    "out_model": "./models/_fcnn1_26_41.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 113,
+    "data_test": 112,
+    "timestep": 42,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_41.pt",
+    "train_losses": [
+        [1, 0.5519751906394958],
+        [2, 0.7549411654472351],
+        [3, 0.8972602486610413]
+    ],
+    "test_loss/acc": [
+        [3, [0.7186685874979332, 79.28571428571429]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686050903320313, 76.36]]
+    ],
+    "training_time": 1.74210786819458,
+    "out_model": "./models/_fcnn1_26_42.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 114,
+    "data_test": 113,
+    "timestep": 43,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_42.pt",
+    "train_losses": [
+        [1, 0.6652951836585999],
+        [2, 0.7023856043815613],
+        [3, 0.555538535118103]
+    ],
+    "test_loss/acc": [
+        [3, [0.7197172731700178, 79.14728682170542]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051208496094, 76.36]]
+    ],
+    "training_time": 1.7735228538513184,
+    "out_model": "./models/_fcnn1_26_43.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 115,
+    "data_test": 114,
+    "timestep": 44,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_43.pt",
+    "train_losses": [
+        [1, 0.754740297794342],
+        [2, 0.5980334877967834],
+        [3, 0.6190654635429382]
+    ],
+    "test_loss/acc": [
+        [3, [0.7192913787533538, 79.14141414141415]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686050903320313, 76.36]]
+    ],
+    "training_time": 1.8277208805084229,
+    "out_model": "./models/_fcnn1_26_44.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 116,
+    "data_test": 115,
+    "timestep": 45,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_44.pt",
+    "train_losses": [
+        [1, 0.6474131345748901],
+        [2, 0.572193443775177],
+        [3, 0.6718582510948181]
+    ],
+    "test_loss/acc": [
+        [3, [0.7190592212441527, 79.1604938271605]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051086425781, 76.36]]
+    ],
+    "training_time": 1.8602111339569092,
+    "out_model": "./models/_fcnn1_26_45.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 117,
+    "data_test": 116,
+    "timestep": 46,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_45.pt",
+    "train_losses": [
+        [1, 0.7208269238471985],
+        [2, 0.7271647453308105],
+        [3, 0.8000945448875427]
+    ],
+    "test_loss/acc": [
+        [3, [0.7206000194457418, 79.08212560386474]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.768605126953125, 76.36]]
+    ],
+    "training_time": 1.9036493301391602,
+    "out_model": "./models/_fcnn1_26_46.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 118,
+    "data_test": 117,
+    "timestep": 47,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_46.pt",
+    "train_losses": [
+        [1, 0.842534065246582],
+        [2, 0.7818211317062378],
+        [3, 0.599446713924408]
+    ],
+    "test_loss/acc": [
+        [3, [0.7212123861831412, 79.05437352245863]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051513671875, 76.36]]
+    ],
+    "training_time": 1.9095556735992432,
+    "out_model": "./models/_fcnn1_26_47.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 119,
+    "data_test": 118,
+    "timestep": 48,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_47.pt",
+    "train_losses": [
+        [1, 0.7023588418960571],
+        [2, 0.5416488647460938],
+        [3, 0.7532743215560913]
+    ],
+    "test_loss/acc": [
+        [3, [0.7207734673111527, 79.05092592592592]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051330566406, 76.36]]
+    ],
+    "training_time": 1.9737505912780762,
+    "out_model": "./models/_fcnn1_26_48.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 120,
+    "data_test": 119,
+    "timestep": 49,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_48.pt",
+    "train_losses": [
+        [1, 0.7904614210128784],
+        [2, 1.170862078666687],
+        [3, 0.5707097053527832]
+    ],
+    "test_loss/acc": [
+        [3, [0.7222625248015873, 79.0702947845805]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051452636719, 76.36]]
+    ],
+    "training_time": 1.9964544773101807,
+    "out_model": "./models/_fcnn1_26_49.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 121,
+    "data_test": 120,
+    "timestep": 50,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_49.pt",
+    "train_losses": [
+        [1, 0.7507758140563965],
+        [2, 0.7480037212371826],
+        [3, 0.6468878388404846]
+    ],
+    "test_loss/acc": [
+        [3, [0.724829366048177, 78.95555555555555]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686050842285156, 76.36]]
+    ],
+    "training_time": 2.0280864238739014,
+    "out_model": "./models/_fcnn1_26_50.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 122,
+    "data_test": 121,
+    "timestep": 51,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_50.pt",
+    "train_losses": [
+        [1, 0.6884320378303528],
+        [2, 0.5615963339805603],
+        [3, 0.6798185706138611]
+    ],
+    "test_loss/acc": [
+        [3, [0.7201349661500885, 79.17211328976035]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051452636719, 76.36]]
+    ],
+    "training_time": 2.0720767974853516,
+    "out_model": "./models/_fcnn1_26_51.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 123,
+    "data_test": 122,
+    "timestep": 52,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_51.pt",
+    "train_losses": [
+        [1, 0.4811694920063019],
+        [2, 0.5997480154037476],
+        [3, 0.7175241708755493]
+    ],
+    "test_loss/acc": [
+        [3, [0.7221340146839109, 79.14529914529915]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051208496094, 76.36]]
+    ],
+    "training_time": 2.1108808517456055,
+    "out_model": "./models/_fcnn1_26_52.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 124,
+    "data_test": 123,
+    "timestep": 53,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_52.pt",
+    "train_losses": [
+        [1, 0.7761051654815674],
+        [2, 0.6546732783317566],
+        [3, 0.8447657823562622]
+    ],
+    "test_loss/acc": [
+        [3, [0.7255335777810534, 79.03563941299791]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051025390624, 76.36]]
+    ],
+    "training_time": 2.1576576232910156,
+    "out_model": "./models/_fcnn1_26_53.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 125,
+    "data_test": 124,
+    "timestep": 54,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_53.pt",
+    "train_losses": [
+        [1, 0.634899914264679],
+        [2, 0.7738561630249023],
+        [3, 0.5472264885902405]
+    ],
+    "test_loss/acc": [
+        [3, [0.7305891500088413, 78.80658436213992]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051513671875, 76.36]]
+    ],
+    "training_time": 2.210357904434204,
+    "out_model": "./models/_fcnn1_26_54.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 126,
+    "data_test": 125,
+    "timestep": 55,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_54.pt",
+    "train_losses": [
+        [1, 0.6203877925872803],
+        [2, 0.6838390827178955],
+        [3, 0.8705201148986816]
+    ],
+    "test_loss/acc": [
+        [3, [0.7323710493607954, 78.72727272727273]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051330566406, 76.36]]
+    ],
+    "training_time": 2.226743698120117,
+    "out_model": "./models/_fcnn1_26_55.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 127,
+    "data_test": 126,
+    "timestep": 56,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_55.pt",
+    "train_losses": [
+        [1, 0.9366050958633423],
+        [2, 0.9762450456619263],
+        [3, 0.42536526918411255]
+    ],
+    "test_loss/acc": [
+        [3, [0.7307599991086929, 78.76984126984127]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.768605078125, 76.36]]
+    ],
+    "training_time": 2.2881152629852295,
+    "out_model": "./models/_fcnn1_26_56.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 128,
+    "data_test": 127,
+    "timestep": 57,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_56.pt",
+    "train_losses": [
+        [1, 0.7946287393569946],
+        [2, 0.6626455783843994],
+        [3, 0.588312029838562]
+    ],
+    "test_loss/acc": [
+        [3, [0.7319271615606535, 78.69395711500975]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051086425781, 76.36]]
+    ],
+    "training_time": 2.3028712272644043,
+    "out_model": "./models/_fcnn1_26_57.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 129,
+    "data_test": 128,
+    "timestep": 58,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_57.pt",
+    "train_losses": [
+        [1, 0.7214155197143555],
+        [2, 0.9535753726959229],
+        [3, 0.8998556137084961]
+    ],
+    "test_loss/acc": [
+        [3, [0.7310125884425138, 78.67816091954023]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051391601563, 76.36]]
+    ],
+    "training_time": 2.3291165828704834,
+    "out_model": "./models/_fcnn1_26_58.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 130,
+    "data_test": 129,
+    "timestep": 59,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_58.pt",
+    "train_losses": [
+        [1, 0.6337932348251343],
+        [2, 0.6335315108299255],
+        [3, 0.6846921443939209]
+    ],
+    "test_loss/acc": [
+        [3, [0.7295012651863745, 78.77589453860641]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686050903320313, 76.36]]
+    ],
+    "training_time": 2.379169464111328,
+    "out_model": "./models/_fcnn1_26_59.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 131,
+    "data_test": 130,
+    "timestep": 60,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_59.pt",
+    "train_losses": [
+        [1, 0.7236713171005249],
+        [2, 0.7113436460494995],
+        [3, 0.8551223278045654]
+    ],
+    "test_loss/acc": [
+        [3, [0.7292877931948062, 78.74074074074075]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686050537109375, 76.36]]
+    ],
+    "training_time": 2.4014337062835693,
+    "out_model": "./models/_fcnn1_26_60.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 132,
+    "data_test": 131,
+    "timestep": 61,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_60.pt",
+    "train_losses": [
+        [1, 0.5658876299858093],
+        [2, 1.000152587890625],
+        [3, 0.7281840443611145]
+    ],
+    "test_loss/acc": [
+        [3, [0.7283366997168147, 78.76138433515483]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051452636719, 76.36]]
+    ],
+    "training_time": 2.450014591217041,
+    "out_model": "./models/_fcnn1_26_61.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 133,
+    "data_test": 132,
+    "timestep": 62,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_61.pt",
+    "train_losses": [
+        [1, 0.7981235384941101],
+        [2, 0.6342220902442932],
+        [3, 0.6073114275932312]
+    ],
+    "test_loss/acc": [
+        [3, [0.7269815205673164, 78.83512544802868]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051147460937, 76.36]]
+    ],
+    "training_time": 2.4644277095794678,
+    "out_model": "./models/_fcnn1_26_62.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 134,
+    "data_test": 133,
+    "timestep": 63,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_62.pt",
+    "train_losses": [
+        [1, 0.7974430918693542],
+        [2, 0.7288604974746704],
+        [3, 0.6009337306022644]
+    ],
+    "test_loss/acc": [
+        [3, [0.7266141538266783, 78.87125220458553]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051025390624, 76.36]]
+    ],
+    "training_time": 2.5522773265838623,
+    "out_model": "./models/_fcnn1_26_63.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 135,
+    "data_test": 134,
+    "timestep": 64,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_63.pt",
+    "train_losses": [
+        [1, 0.6823635697364807],
+        [2, 0.77486652135849],
+        [3, 0.619762659072876]
+    ],
+    "test_loss/acc": [
+        [3, [0.7262650277879503, 78.92361111111111]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686050720214844, 76.36]]
+    ],
+    "training_time": 2.590949535369873,
+    "out_model": "./models/_fcnn1_26_64.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 136,
+    "data_test": 135,
+    "timestep": 65,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_64.pt",
+    "train_losses": [
+        [1, 0.850604772567749],
+        [2, 0.9816671013832092],
+        [3, 0.5110331773757935]
+    ],
+    "test_loss/acc": [
+        [3, [0.7261172876602564, 78.94017094017094]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051025390624, 76.36]]
+    ],
+    "training_time": 2.623758554458618,
+    "out_model": "./models/_fcnn1_26_65.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 137,
+    "data_test": 136,
+    "timestep": 66,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_65.pt",
+    "train_losses": [
+        [1, 0.6834250092506409],
+        [2, 1.0324888229370117],
+        [3, 0.6511717438697815]
+    ],
+    "test_loss/acc": [
+        [3, [0.7248774364741162, 79.006734006734]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051696777344, 76.36]]
+    ],
+    "training_time": 2.6576595306396484,
+    "out_model": "./models/_fcnn1_26_66.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 138,
+    "data_test": 137,
+    "timestep": 67,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_66.pt",
+    "train_losses": [
+        [1, 0.7063784599304199],
+        [2, 0.723214328289032],
+        [3, 0.7268065214157104]
+    ],
+    "test_loss/acc": [
+        [3, [0.7237016611431368, 79.07131011608624]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051025390624, 76.36]]
+    ],
+    "training_time": 2.687938928604126,
+    "out_model": "./models/_fcnn1_26_67.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 139,
+    "data_test": 138,
+    "timestep": 68,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_67.pt",
+    "train_losses": [
+        [1, 0.7014344334602356],
+        [2, 0.5649727582931519],
+        [3, 0.6968348622322083]
+    ],
+    "test_loss/acc": [
+        [3, [0.7215130326015498, 79.13398692810458]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051208496094, 76.36]]
+    ],
+    "training_time": 2.724508762359619,
+    "out_model": "./models/_fcnn1_26_68.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 140,
+    "data_test": 139,
+    "timestep": 69,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_68.pt",
+    "train_losses": [
+        [1, 0.6351220011711121],
+        [2, 0.6924280524253845],
+        [3, 0.7963645458221436]
+    ],
+    "test_loss/acc": [
+        [3, [0.7201274583113174, 79.17874396135265]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051330566406, 76.36]]
+    ],
+    "training_time": 2.733675718307495,
+    "out_model": "./models/_fcnn1_26_69.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 141,
+    "data_test": 140,
+    "timestep": 70,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_69.pt",
+    "train_losses": [
+        [1, 0.6482714414596558],
+        [2, 0.7398326396942139],
+        [3, 0.7493422031402588]
+    ],
+    "test_loss/acc": [
+        [3, [0.719571034264943, 79.17460317460318]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686050537109375, 76.36]]
+    ],
+    "training_time": 2.8263168334960938,
+    "out_model": "./models/_fcnn1_26_70.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 142,
+    "data_test": 141,
+    "timestep": 71,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_70.pt",
+    "train_losses": [
+        [1, 0.8455812931060791],
+        [2, 0.6062016487121582],
+        [3, 0.5917904376983643]
+    ],
+    "test_loss/acc": [
+        [3, [0.7190504763607688, 79.21752738654148]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051208496094, 76.36]]
+    ],
+    "training_time": 2.80717396736145,
+    "out_model": "./models/_fcnn1_26_71.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 143,
+    "data_test": 142,
+    "timestep": 72,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_71.pt",
+    "train_losses": [
+        [1, 0.7487404942512512],
+        [2, 0.8001179099082947],
+        [3, 0.4076114296913147]
+    ],
+    "test_loss/acc": [
+        [3, [0.7193900025921104, 79.16666666666667]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051452636719, 76.36]]
+    ],
+    "training_time": 2.866783380508423,
+    "out_model": "./models/_fcnn1_26_72.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 144,
+    "data_test": 143,
+    "timestep": 73,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_72.pt",
+    "train_losses": [
+        [1, 0.8885365724563599],
+        [2, 0.8239076733589172],
+        [3, 0.6235268115997314]
+    ],
+    "test_loss/acc": [
+        [3, [0.7168117203850362, 79.20852359208524]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051330566406, 76.36]]
+    ],
+    "training_time": 2.9240245819091797,
+    "out_model": "./models/_fcnn1_26_73.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 145,
+    "data_test": 144,
+    "timestep": 74,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_73.pt",
+    "train_losses": [
+        [1, 0.6349642872810364],
+        [2, 0.44441136717796326],
+        [3, 0.6865577101707458]
+    ],
+    "test_loss/acc": [
+        [3, [0.7146402399103204, 79.30930930930931]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686050598144532, 76.36]]
+    ],
+    "training_time": 2.96142315864563,
+    "out_model": "./models/_fcnn1_26_74.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 146,
+    "data_test": 145,
+    "timestep": 75,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_74.pt",
+    "train_losses": [
+        [1, 0.5668100714683533],
+        [2, 0.7789891362190247],
+        [3, 0.6357883214950562]
+    ],
+    "test_loss/acc": [
+        [3, [0.7137907895688658, 79.28888888888889]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051147460937, 76.36]]
+    ],
+    "training_time": 2.9955811500549316,
+    "out_model": "./models/_fcnn1_26_75.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 147,
+    "data_test": 146,
+    "timestep": 76,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_75.pt",
+    "train_losses": [
+        [1, 0.7312904000282288],
+        [2, 0.6459511518478394],
+        [3, 0.8575383424758911]
+    ],
+    "test_loss/acc": [
+        [3, [0.7158742447345577, 79.16666666666667]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051391601563, 76.36]]
+    ],
+    "training_time": 3.004190683364868,
+    "out_model": "./models/_fcnn1_26_76.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 148,
+    "data_test": 147,
+    "timestep": 77,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_76.pt",
+    "train_losses": [
+        [1, 0.7168699502944946],
+        [2, 0.7864668369293213],
+        [3, 0.5627464652061462]
+    ],
+    "test_loss/acc": [
+        [3, [0.7179582251786841, 79.07647907647907]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051391601563, 76.36]]
+    ],
+    "training_time": 3.0381412506103516,
+    "out_model": "./models/_fcnn1_26_77.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 149,
+    "data_test": 148,
+    "timestep": 78,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_77.pt",
+    "train_losses": [
+        [1, 0.8412172794342041],
+        [2, 0.6582722067832947],
+        [3, 0.8725544214248657]
+    ],
+    "test_loss/acc": [
+        [3, [0.7196513626989816, 79.002849002849]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051513671875, 76.36]]
+    ],
+    "training_time": 3.109245777130127,
+    "out_model": "./models/_fcnn1_26_78.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 150,
+    "data_test": 149,
+    "timestep": 79,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_78.pt",
+    "train_losses": [
+        [1, 0.7910897135734558],
+        [2, 0.7240261435508728],
+        [3, 0.6595790982246399]
+    ],
+    "test_loss/acc": [
+        [3, [0.7195619220975079, 79.0014064697609]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686050903320313, 76.36]]
+    ],
+    "training_time": 3.1113054752349854,
+    "out_model": "./models/_fcnn1_26_79.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 151,
+    "data_test": 150,
+    "timestep": 80,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_79.pt",
+    "train_losses": [
+        [1, 0.6142415404319763],
+        [2, 0.6050921678543091],
+        [3, 0.7046172618865967]
+    ],
+    "test_loss/acc": [
+        [3, [0.7196316952175564, 79.08333333333333]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051391601563, 76.36]]
+    ],
+    "training_time": 3.1990087032318115,
+    "out_model": "./models/_fcnn1_26_80.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 152,
+    "data_test": 151,
+    "timestep": 81,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_80.pt",
+    "train_losses": [
+        [1, 0.9222760200500488],
+        [2, 0.8670920729637146],
+        [3, 0.7007845044136047]
+    ],
+    "test_loss/acc": [
+        [3, [0.7218526560256183, 78.99862825788752]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051208496094, 76.36]]
+    ],
+    "training_time": 3.21565318107605,
+    "out_model": "./models/_fcnn1_26_81.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 153,
+    "data_test": 152,
+    "timestep": 82,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_81.pt",
+    "train_losses": [
+        [1, 0.9474148154258728],
+        [2, 0.6662266850471497],
+        [3, 0.6024394035339355]
+    ],
+    "test_loss/acc": [
+        [3, [0.7247538331401381, 78.90243902439025]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051086425781, 76.36]]
+    ],
+    "training_time": 3.1908440589904785,
+    "out_model": "./models/_fcnn1_26_82.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 154,
+    "data_test": 153,
+    "timestep": 83,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_82.pt",
+    "train_losses": [
+        [1, 0.7825953960418701],
+        [2, 0.8400542736053467],
+        [3, 0.6687299609184265]
+    ],
+    "test_loss/acc": [
+        [3, [0.726827459577895, 78.86211512717537]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051025390624, 76.36]]
+    ],
+    "training_time": 3.2529187202453613,
+    "out_model": "./models/_fcnn1_26_83.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 155,
+    "data_test": 154,
+    "timestep": 84,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_83.pt",
+    "train_losses": [
+        [1, 0.8266266584396362],
+        [2, 0.5648785829544067],
+        [3, 0.6685091257095337]
+    ],
+    "test_loss/acc": [
+        [3, [0.7288909346969039, 78.79629629629629]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.768605126953125, 76.36]]
+    ],
+    "training_time": 3.3051564693450928,
+    "out_model": "./models/_fcnn1_26_84.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 156,
+    "data_test": 155,
+    "timestep": 85,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_84.pt",
+    "train_losses": [
+        [1, 0.5688183903694153],
+        [2, 0.8075681328773499],
+        [3, 0.7213693261146545]
+    ],
+    "test_loss/acc": [
+        [3, [0.7293580058976715, 78.73202614379085]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686050964355469, 76.36]]
+    ],
+    "training_time": 3.3516674041748047,
+    "out_model": "./models/_fcnn1_26_85.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 157,
+    "data_test": 156,
+    "timestep": 86,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_85.pt",
+    "train_losses": [
+        [1, 0.865206778049469],
+        [2, 0.6415313482284546],
+        [3, 0.6205122470855713]
+    ],
+    "test_loss/acc": [
+        [3, [0.7293993336285731, 78.69509043927648]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686050720214844, 76.36]]
+    ],
+    "training_time": 3.416008234024048,
+    "out_model": "./models/_fcnn1_26_86.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 158,
+    "data_test": 157,
+    "timestep": 87,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_86.pt",
+    "train_losses": [
+        [1, 0.7894972562789917],
+        [2, 0.7080462574958801],
+        [3, 0.6205753684043884]
+    ],
+    "test_loss/acc": [
+        [3, [0.7310915112647669, 78.55683269476373]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051513671875, 76.36]]
+    ],
+    "training_time": 3.450139284133911,
+    "out_model": "./models/_fcnn1_26_87.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 159,
+    "data_test": 158,
+    "timestep": 88,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_87.pt",
+    "train_losses": [
+        [1, 0.7654505968093872],
+        [2, 0.7488096952438354],
+        [3, 0.7821421027183533]
+    ],
+    "test_loss/acc": [
+        [3, [0.7309443310053662, 78.54797979797979]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.768605126953125, 76.36]]
+    ],
+    "training_time": 3.4527242183685303,
+    "out_model": "./models/_fcnn1_26_88.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 160,
+    "data_test": 159,
+    "timestep": 89,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_88.pt",
+    "train_losses": [
+        [1, 0.6500077843666077],
+        [2, 0.5995490550994873],
+        [3, 0.7876073718070984]
+    ],
+    "test_loss/acc": [
+        [3, [0.7318078329202983, 78.5143570536829]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051330566406, 76.36]]
+    ],
+    "training_time": 3.462311029434204,
+    "out_model": "./models/_fcnn1_26_89.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 161,
+    "data_test": 160,
+    "timestep": 90,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_89.pt",
+    "train_losses": [
+        [1, 0.6335087418556213],
+        [2, 0.6814800500869751],
+        [3, 0.7591577172279358]
+    ],
+    "test_loss/acc": [
+        [3, [0.7318388065291039, 78.45679012345678]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051086425781, 76.36]]
+    ],
+    "training_time": 3.550686836242676,
+    "out_model": "./models/_fcnn1_26_90.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 162,
+    "data_test": 161,
+    "timestep": 91,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_90.pt",
+    "train_losses": [
+        [1, 0.7141278982162476],
+        [2, 0.6668071746826172],
+        [3, 0.6087650656700134]
+    ],
+    "test_loss/acc": [
+        [3, [0.7318647130796179, 78.44932844932845]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051330566406, 76.36]]
+    ],
+    "training_time": 3.590951919555664,
+    "out_model": "./models/_fcnn1_26_91.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 163,
+    "data_test": 162,
+    "timestep": 92,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_91.pt",
+    "train_losses": [
+        [1, 0.8036046624183655],
+        [2, 0.7887349128723145],
+        [3, 0.6019028425216675]
+    ],
+    "test_loss/acc": [
+        [3, [0.7341573411139889, 78.3695652173913]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051147460937, 76.36]]
+    ],
+    "training_time": 3.64334774017334,
+    "out_model": "./models/_fcnn1_26_92.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 164,
+    "data_test": 163,
+    "timestep": 93,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_92.pt",
+    "train_losses": [
+        [1, 0.798351526260376],
+        [2, 0.6357757449150085],
+        [3, 1.0028342008590698]
+    ],
+    "test_loss/acc": [
+        [3, [0.7345790630600358, 78.38709677419355]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051330566406, 76.36]]
+    ],
+    "training_time": 3.656805992126465,
+    "out_model": "./models/_fcnn1_26_93.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 165,
+    "data_test": 164,
+    "timestep": 94,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_93.pt",
+    "train_losses": [
+        [1, 0.5436899065971375],
+        [2, 0.9058550000190735],
+        [3, 0.8093225359916687]
+    ],
+    "test_loss/acc": [
+        [3, [0.736587614596031, 78.3096926713948]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051025390624, 76.36]]
+    ],
+    "training_time": 3.7301347255706787,
+    "out_model": "./models/_fcnn1_26_94.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 166,
+    "data_test": 165,
+    "timestep": 95,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_94.pt",
+    "train_losses": [
+        [1, 0.7918044328689575],
+        [2, 0.7898375988006592],
+        [3, 0.6842233538627625]
+    ],
+    "test_loss/acc": [
+        [3, [0.7350227650424891, 78.3859649122807]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051452636719, 76.36]]
+    ],
+    "training_time": 3.757655382156372,
+    "out_model": "./models/_fcnn1_26_95.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 167,
+    "data_test": 166,
+    "timestep": 96,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_95.pt",
+    "train_losses": [
+        [1, 0.9922529458999634],
+        [2, 0.7157352566719055],
+        [3, 0.8819859623908997]
+    ],
+    "test_loss/acc": [
+        [3, [0.7335629887051053, 78.44907407407408]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051391601563, 76.36]]
+    ],
+    "training_time": 3.78753399848938,
+    "out_model": "./models/_fcnn1_26_96.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 168,
+    "data_test": 167,
+    "timestep": 97,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_96.pt",
+    "train_losses": [
+        [1, 0.7458717823028564],
+        [2, 0.8594913482666016],
+        [3, 0.624596357345581]
+    ],
+    "test_loss/acc": [
+        [3, [0.7379754729560424, 78.31615120274914]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051452636719, 76.36]]
+    ],
+    "training_time": 3.8332555294036865,
+    "out_model": "./models/_fcnn1_26_97.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 169,
+    "data_test": 168,
+    "timestep": 98,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_97.pt",
+    "train_losses": [
+        [1, 0.7888533473014832],
+        [2, 0.6257864236831665],
+        [3, 0.9607568383216858]
+    ],
+    "test_loss/acc": [
+        [3, [0.7391351885806405, 78.2766439909297]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051330566406, 76.36]]
+    ],
+    "training_time": 3.814467430114746,
+    "out_model": "./models/_fcnn1_26_98.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 170,
+    "data_test": 169,
+    "timestep": 99,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_98.pt",
+    "train_losses": [
+        [1, 0.6471134424209595],
+        [2, 0.6569265127182007],
+        [3, 1.0150740146636963]
+    ],
+    "test_loss/acc": [
+        [3, [0.74341013487742, 78.12570145903479]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051086425781, 76.36]]
+    ],
+    "training_time": 3.8773980140686035,
+    "out_model": "./models/_fcnn1_26_99.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 171,
+    "data_test": 170,
+    "timestep": 100,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_99.pt",
+    "train_losses": [
+        [1, 0.6998823285102844],
+        [2, 0.6259897947311401],
+        [3, 0.6485931873321533]
+    ],
+    "test_loss/acc": [
+        [3, [0.742323493109809, 78.18888888888888]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686050903320313, 76.36]]
+    ],
+    "training_time": 3.928969621658325,
+    "out_model": "./models/_fcnn1_26_100.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 172,
+    "data_test": 171,
+    "timestep": 101,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_100.pt",
+    "train_losses": [
+        [1, 0.7031751871109009],
+        [2, 0.5916140079498291],
+        [3, 0.6849650144577026]
+    ],
+    "test_loss/acc": [
+        [3, [0.7412288351027485, 78.22882288228823]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686050964355469, 76.36]]
+    ],
+    "training_time": 3.95145845413208,
+    "out_model": "./models/_fcnn1_26_101.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 173,
+    "data_test": 172,
+    "timestep": 102,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_101.pt",
+    "train_losses": [
+        [1, 0.7189720869064331],
+        [2, 0.8782268762588501],
+        [3, 0.7343124151229858]
+    ],
+    "test_loss/acc": [
+        [3, [0.741828149699957, 78.21350762527233]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051086425781, 76.36]]
+    ],
+    "training_time": 4.001850366592407,
+    "out_model": "./models/_fcnn1_26_102.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 174,
+    "data_test": 173,
+    "timestep": 103,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_102.pt",
+    "train_losses": [
+        [1, 0.8625434041023254],
+        [2, 0.7176057696342468],
+        [3, 0.8662486672401428]
+    ],
+    "test_loss/acc": [
+        [3, [0.7422702266689, 78.17691477885653]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051513671875, 76.36]]
+    ],
+    "training_time": 4.068490266799927,
+    "out_model": "./models/_fcnn1_26_103.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 175,
+    "data_test": 174,
+    "timestep": 104,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_103.pt",
+    "train_losses": [
+        [1, 0.7126862406730652],
+        [2, 0.6173202395439148],
+        [3, 0.7988100051879883]
+    ],
+    "test_loss/acc": [
+        [3, [0.7419866349962022, 78.2051282051282]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051025390624, 76.36]]
+    ],
+    "training_time": 4.095927000045776,
+    "out_model": "./models/_fcnn1_26_104.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 176,
+    "data_test": 175,
+    "timestep": 105,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_104.pt",
+    "train_losses": [
+        [1, 0.6150379180908203],
+        [2, 0.7762735486030579],
+        [3, 0.6742746829986572]
+    ],
+    "test_loss/acc": [
+        [3, [0.7425295229311343, 78.19047619047619]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051147460937, 76.36]]
+    ],
+    "training_time": 4.166771173477173,
+    "out_model": "./models/_fcnn1_26_105.pt"
+}, {
+    "architecture": "fcnn1",
+    "data_train": 177,
+    "data_test": 176,
+    "timestep": 106,
+    "stepsize": 100,
+    "base_model": "./models/_fcnn1_26_105.pt",
+    "train_losses": [
+        [1, 0.7191821336746216],
+        [2, 0.6693673729896545],
+        [3, 0.714503288269043]
+    ],
+    "test_loss/acc": [
+        [3, [0.7419557647385188, 78.21802935010483]]
+    ],
+    "oracle_loss/acc": [
+        [3, [0.7686051635742187, 76.36]]
+    ],
+    "training_time": 4.165342092514038,
+    "out_model": "./models/_fcnn1_26_106.pt"
+}

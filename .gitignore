@@ -1,0 +1,10 @@
+**/__pycache__/**
+**/exp/**
+mnist_raw
+tmp
+**/versions/**
+models
+test.log
+test.py
+.ipynb_checkpoints
+.vscode

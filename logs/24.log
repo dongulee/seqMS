@@ -1,0 +1,1 @@
+{"exp_id": 25},{"architecture": "fcnn1", "timestep": 0, "pre_train_size": 100, "mnist_test": false, "split_ratio": 0.9, "model_arch": "fcnn1", "epochs": 3, "train_losses": [[1, 2.3070268630981445], [2, 1.597373366355896], [3, 0.8290343284606934]], "test_loss/acc": [[3, [0.4357579231262207, 100.0]]], "training_time": 1.424992561340332, "out_model": "./models/_fcnn1_25_0.pt"}
